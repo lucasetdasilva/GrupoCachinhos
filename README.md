@@ -1,7 +1,7 @@
 # GrupoCachinhos
 Projeto de API 1BD 1º semestre - Mó Viagem
 
-◾ 𝐎 𝐪𝐮𝐞 𝐞́?
+◾ 𝐎 𝐪𝐮𝐞 𝐞́?</br>
  ▫ "Mó Viagem" é uma assistente virtual com o meio de funcionamento do tema "Viagens". Seu principal objetivo é guiar e ajudar o usuário quanto à busca pelo destino ideal, este sendo em solo brasileiro.;</br>
  ▫ Formato escolhido: Desktop;</br>
 
