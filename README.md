@@ -8,9 +8,12 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  ▫ Funcionalidades:</br>
       ✔ Reconhecimento de fala;</br>
       ✔ Previsão do tempo;</br>
-      ✔ Lista de desejos;</br>
+      ✔ Lista de desejos (locais);</br>
       ✔ Avaliações no app;</br>
-      ✔
+      ✔ Pesquisa;</br>
+      ✔ Roteiro de viagens;</br>
+      ✔ Comparação de preços;</br>
+      ✔ Curiosidades;</br>
  
  
  ◾ 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐧𝐭𝐞𝐬 𝐝𝐨 𝐠𝐫𝐮𝐩𝐨:</br>
