@@ -7,7 +7,7 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  ▫ Formato escolhido: Desktop;</br>
  ▫ Funcionalidades: 
  
- ◾𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐧𝐭𝐞𝐬 𝐝𝐨 𝐠𝐫𝐮𝐩𝐨:
+ ◾ 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐧𝐭𝐞𝐬 𝐝𝐨 𝐠𝐫𝐮𝐩𝐨:</br>
  ▫ Cainan Thomas;</br>
  ▫ Daniele de Jesus;</br>
  ▫ Giovanna Souza;</br>
