@@ -8,6 +8,15 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  ▫ Funcionalidades: 
  
  ◾𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐧𝐭𝐞𝐬 𝐝𝐨 𝐠𝐫𝐮𝐩𝐨:
+ ▫ Cainan Thomas;</br>
+ ▫ Daniele de Jesus;</br>
+ ▫ Giovanna Souza;</br>
+ ▫ Guilherme Wunderlich;</br>
+ ▫ Isabela Pereira;</br>
+ ▫ Júlia Pereira;</br>
+ ▫ Lucas Emanoel;</br>
+ ▫ Marcella Yanes;</br>
+ ▫ Yasmin Santana;</br>
 
 💻 𝐓𝐞𝐜𝐧𝐨𝐥𝐨𝐠𝐢𝐚𝐬 𝐚𝐩𝐥𝐢𝐜𝐚𝐝𝐚𝐬(𝐥𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐩𝐲𝐭𝐡𝐨𝐧):</br>
  ▫ SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
