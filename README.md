@@ -16,7 +16,7 @@ Projeto de API 1BD 1º semestre - Mó Viagem
 
 ◾ 𝐒𝐩𝐫𝐢𝐧𝐭 𝟏 (𝟐𝟓/𝟎𝟑 - 𝟏𝟒/𝟎𝟒)⭐</br>
  ▫ Entrega do planejamento;</br>
- ▫ Reconhecimento de fala;</br>
+ ▫ (Spoiler) Reconhecimento de fala;</br>
  ▫ Previsão do tempo (desejável);</br>
  ▫ Estudo e implementação da linguagem Python.
 
