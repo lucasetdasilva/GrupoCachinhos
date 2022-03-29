@@ -7,8 +7,8 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  ▫ Formato escolhido: Desktop;</br>
  ▫ Funcionalidades: 
 
-💻 𝐓𝐞𝐜𝐧𝐨𝐥𝐨𝐠𝐢𝐚𝐬 𝐚𝐩𝐥𝐢𝐜𝐚𝐝𝐚𝐬(𝐥𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐩𝐲𝐭𝐡𝐨𝐧):
- ▫ SpeechRecognition;</br>
+💻 𝐓𝐞𝐜𝐧𝐨𝐥𝐨𝐠𝐢𝐚𝐬 𝐚𝐩𝐥𝐢𝐜𝐚𝐝𝐚𝐬(𝐥𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐩𝐲𝐭𝐡𝐨𝐧):</br>
+ ▫ SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
  ▫ PyAudio;</br>
  
 
