@@ -6,10 +6,10 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  ▫ "Mó Viagem" é uma assistente virtual com o nicho "Viagens". Seu principal objetivo é guiar e ajudar o usuário quanto à busca pelo destino         ideal, este sendo em solo brasileiro. </br>
  ▫ Formato escolhido: Desktop;</br>
  ▫ Funcionalidades:</br>
-      ✔ Reconhecimento de fala;
-      ✔ Previsão do tempo;
-      ✔ Lista de desejos;
-      ✔ Avaliações no app;
+      ✔ Reconhecimento de fala;</br>
+      ✔ Previsão do tempo;</br>
+      ✔ Lista de desejos;</br>
+      ✔ Avaliações no app;</br>
       ✔
  
  
