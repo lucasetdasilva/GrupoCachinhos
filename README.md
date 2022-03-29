@@ -9,7 +9,7 @@ Projeto de API 1BD 1º semestre - Mó Viagem
 
 💻 𝐓𝐞𝐜𝐧𝐨𝐥𝐨𝐠𝐢𝐚𝐬 𝐚𝐩𝐥𝐢𝐜𝐚𝐝𝐚𝐬(𝐥𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐩𝐲𝐭𝐡𝐨𝐧):</br>
  ▫ SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
- ▫ PyAudio;</br>
+ ▫ PyAudio: https://pypi.org/project/PyAudio/;</br>
  
 
 ◾ 𝐋𝐢𝐧𝐤 𝐓𝐫𝐞𝐥𝐥𝐨 (Kanban+backlog do produto): https://trello.com/invite/b/6ZzeEErO/1ff9ed1d93eecabca050c4d31655d86c/api
