@@ -48,7 +48,7 @@ Projeto de API 1BD 1º semestre - Mó Viagem
 
 📆𝐂𝐫𝐨𝐧𝐨𝐠𝐫𝐚𝐦𝐚:
 
-🔥𝐆𝐫𝐚́𝐟𝐢𝐜𝐨 𝐁𝐮𝐫𝐧𝐝𝐨𝐰𝐧:
+🔥𝐆𝐫𝐚́𝐟𝐢𝐜𝐨 𝐁𝐮𝐫𝐧𝐝𝐨𝐰𝐧: https://fatecspgov-my.sharepoint.com/:x:/r/personal/giovanna_silva61_fatec_sp_gov_br/Documents/Gr%C3%A1fico%20Burndown.xlsx?d=w039512b420ea41e3bc2b2b0600db563e&csf=1&web=1&e=IbXfek
 
 
 Legenda:
