@@ -36,6 +36,7 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  ▫ Kivy: https://kivy.org/#home; </br>
  ▫ Calendar: https://docs.python.org/3/library/calendar.html
  ▫ datetime: https://docs.python.org/3/library/datetime.html
+ https://www.meteomatics.com/en/
 
  
 
