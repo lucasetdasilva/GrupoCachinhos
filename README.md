@@ -35,6 +35,7 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  ▫ PyAudio: https://pypi.org/project/PyAudio/;</br>
  ▫ Kivy: https://kivy.org/#home; </br>
  ▫ KivyCalendar: https://pypi.org/project/KivyCalendar/
+ ▫ datetime: https://docs.python.org/3/library/datetime.html
  
 
 ◾ 𝐋𝐢𝐧𝐤 𝐓𝐫𝐞𝐥𝐥𝐨 (Kanban+backlog do produto): https://trello.com/invite/b/6ZzeEErO/1ff9ed1d93eecabca050c4d31655d86c/api
