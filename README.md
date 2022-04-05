@@ -34,7 +34,7 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  ▫ SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
  ▫ PyAudio: https://pypi.org/project/PyAudio/;</br>
  ▫ Kivy: https://kivy.org/#home; </br>
- ▫ Calendar: https://docs.python.org/3/library/calendar.html
+ ▫ Calendar: https://docs.python.org/3/library/calendar.html</br>
  ▫ datetime: https://docs.python.org/3/library/datetime.html
  https://www.meteomatics.com/en/
  https://pypi.org/project/openweather/
@@ -53,7 +53,7 @@ Projeto de API 1BD 1º semestre - Mó Viagem
 
 📆𝐂𝐫𝐨𝐧𝐨𝐠𝐫𝐚𝐦𝐚: https://docs.google.com/spreadsheets/d/197IBkQuQ7awKZA6Q-7ItOBJPDXQKDy7e_YY2fQ41AM0/edit?usp=drivesdk
 
-🔥𝐆𝐫𝐚́𝐟𝐢𝐜𝐨 𝐁𝐮𝐫𝐧𝐝𝐨𝐰𝐧: https://fatecspgov-my.sharepoint.com/:x:/r/personal/giovanna_silva61_fatec_sp_gov_br/Documents/Gr%C3%A1fico%20Burndown.xlsx?d=w039512b420ea41e3bc2b2b0600db563e&csf=1&web=1&e=IbXfek
+🔥𝐆𝐫𝐚́𝐟𝐢𝐜𝐨 𝐁𝐮𝐫𝐧𝐝𝐨𝐰𝐧: https://docs.google.com/spreadsheets/d/1SxAbhuweVsbABp_5_TydBdyIK2thJMZV7LQk6XsH_8/edit?usp=drivesdk
 
 
 Legenda:
