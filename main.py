@@ -4,18 +4,15 @@ import pyttsx3
 import os
 import datetime
 import requests
-from googletrans import Translator
-from googletrans.gtoken import TokenAcquirer
+
+# biblioteca googletrans não funcional desde 2018
+# from googletrans import Translator
+# from googletrans.gtoken import TokenAcquirer
 
 
 
 #from kivy.app import App
 #from kivy.lang import Builder
-
-def tradutor(palavra):
-    translator = Translator()
-    traduzir = translator.translate(palavra, src = "en", dest = "pt")
-
 
 def convertFala(texto):
     engine = pyttsx3.init()
