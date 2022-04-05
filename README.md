@@ -1,6 +1,8 @@
 # GrupoCachinhos
 Projeto de API 1BD 1º semestre - Mó Viagem
 
+![logo](https://user-images.githubusercontent.com/71770652/161846127-868e876a-fefb-4184-bbd7-a53b313cf614.png)
+
 ◾ 𝐎 𝐪𝐮𝐞 𝐞́?</br>
  ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são no exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que este pode aproveitar seu passeio em seu próprio país; o qual ainda não possui as belas paisagens valorizadas. É preciso mais valorização e apreciação quanto à cultura       brasileira. 💛💚💙</br>
  ▫ "Mó Viagem" é uma assistente virtual com o nicho "Viagens". Seu principal objetivo é guiar e ajudar o usuário quanto à busca pelo destino         ideal, este sendo em solo brasileiro. </br>
