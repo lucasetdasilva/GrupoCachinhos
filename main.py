@@ -4,15 +4,18 @@ import pyttsx3
 import os
 import datetime
 import requests
-
-# biblioteca googletrans não funcional desde 2018
-# from googletrans import Translator
-# from googletrans.gtoken import TokenAcquirer
+from translate import Translator
 
 
 
 #from kivy.app import App
 #from kivy.lang import Builder
+
+def tradutor(palavra):
+    translator= Translator(to_lang="pt")
+    translation =  translator.translate(palavra)
+    return translation
+
 
 def convertFala(texto):
     engine = pyttsx3.init()
@@ -64,8 +67,9 @@ def ouvir():
             tempo = requisicao_dic['weather'][0]['description']
             temperatura = requisicao_dic['main']['temp']
             converter = (temperatura - 273.15) // 1
-            convertFala(f"Em {cidade} agora são {converter} graus Celsius")
-            convertFala(f"O clima está {tempo}")
+            clima = tradutor(tempo)
+            convertFala(f"Em {cidade} faz agora {converter} graus Celsius")
+            convertFala(f"O clima está {clima}")
             print(f"Temperatura agora em {cidade} é {converter} °C")
             print(f"Condição climática agora em {cidade} é {tempo}")
 
