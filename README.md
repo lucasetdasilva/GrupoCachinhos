@@ -10,7 +10,6 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  
  
 ◾ 𝐅𝐮𝐧𝐜𝐢𝐨𝐧𝐚𝐥𝐢𝐝𝐚𝐝𝐞𝐬:</br>
-      ✔ Reconhecimento de fala;</br>
       ✔ Previsão do tempo;</br>
       ✔ Lista de desejos (locais);</br>
       ✔ Avaliações no app;</br>
@@ -24,7 +23,6 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  ◾ 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐧𝐭𝐞𝐬 𝐝𝐨 𝐠𝐫𝐮𝐩𝐨:</br>
  ▫ Cainan Thomas;</br>
  ▫ Daniele de Jesus;</br>
- ▫ Giovanna Souza;</br>
  ▫ Guilherme Wunderlich;</br>
  ▫ Isabela Pereira;</br>
  ▫ Júlia Pereira;</br>
