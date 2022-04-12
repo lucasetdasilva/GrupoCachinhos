@@ -4,7 +4,7 @@ Projeto de API 1BD 1º semestre - Mó Viagem
 ![logopequena](https://user-images.githubusercontent.com/71770652/161846651-391a201b-48de-4b73-a8da-1f612c366ac1.jpg)
 
 ◾ 𝐎 𝐪𝐮𝐞 𝐞́?</br>
- ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são no exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que este pode aproveitar seu passeio em seu próprio país; o qual ainda não possui as belas paisagens valorizadas. É preciso mais valorização e apreciação quanto à cultura       brasileira. 💛💚💙</br>
+ ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são no exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que este pode aproveitar seu passeio em seu próprio país; o qual ainda não possui as belas paisagens valorizadas. É preciso mais valorização e apreciação quanto à cultura       brasileira.</br>
  ▫ "Mó Viagem" é uma assistente virtual com o nicho "Viagens". Seu principal objetivo é guiar e ajudar o usuário quanto à busca pelo destino         ideal, este sendo em solo brasileiro. </br>
  ▫ Formato escolhido: Desktop;</br>
  
@@ -45,15 +45,14 @@ Projeto de API 1BD 1º semestre - Mó Viagem
 
 ◾ 𝐒𝐩𝐫𝐢𝐧𝐭 𝟏 (𝟐𝟓/𝟎𝟑 - 𝟏𝟒/𝟎𝟒)⭐</br>
  ▫ Entrega do planejamento;</br>
- ▫ (Spoiler) Reconhecimento de fala;</br>
- ▫ Previsão do tempo (desejável);</br>
- ▫ Interface (desejável);</br>
+ ▫ Reconhecimento de voz;</br>
+ ▫ Previsão do tempo;</br>
+ ▫ Spoiler: Interface;</br>
  ▫ Estudo e implementação da linguagem Python.
- 
+ ▫ Gráfico de Burndown
 
 📆𝐂𝐫𝐨𝐧𝐨𝐠𝐫𝐚𝐦𝐚: https://docs.google.com/spreadsheets/d/197IBkQuQ7awKZA6Q-7ItOBJPDXQKDy7e_YY2fQ41AM0/edit?usp=drivesdk
 
 🔥𝐆𝐫𝐚́𝐟𝐢𝐜𝐨 𝐁𝐮𝐫𝐧𝐝𝐨𝐰𝐧: https://docs.google.com/spreadsheets/d/1SxAbhuweVsbABp_5_uTydBdyIK2thJMZV7LQk6XsH_8/edit?usp=drivesdk
 
 
-Legenda:
