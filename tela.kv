@@ -1,0 +1,36 @@
+FloatLayout:
+
+    BoxLayout:
+        canvas:
+            Color:
+                rgba: 0, 0, 1, 1
+            Rectangle:
+                size: 300, 400
+                pos: 230, 100
+
+
+    MDToolbar:
+        title: ""
+        pos_hint: {'center_x': 0.5, 'center_y': 0.95}
+
+    MDToolbar:
+        title: "v1 - 2022                                                         Powered by GrupoCachinhos"
+
+
+    MDFillRoundFlatIconButton:
+        icon: "volume-high"
+        pos_hint: {'center_x': 0.47, 'center_y': 0.35}
+        text: "Aperte para falar"
+        width: dp(300)
+
+    Image:
+        source: 'logo.png'
+        allow_stretch: True
+        size_hint: 0.2, 0.2
+        pos_hint: {'center_x': 0.85, 'center_y': 0.85}
+
+    Image:
+        source: 'assistente.png'
+        allow_stretch: True
+        size_hint: 0.7, 0.7
+        pos_hint: {'center_x': 0.85, 'center_y': 0.30}
