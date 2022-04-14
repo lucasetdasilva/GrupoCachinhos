@@ -54,7 +54,6 @@ Projeto de API 1BD 1º semestre - Mó Viagem
 📆𝐂𝐫𝐨𝐧𝐨𝐠𝐫𝐚𝐦𝐚: https://docs.google.com/spreadsheets/d/197IBkQuQ7awKZA6Q-7ItOBJPDXQKDy7e_YY2fQ41AM0/edit?usp=drivesdk
 
 🔥𝐆𝐫𝐚́𝐟𝐢𝐜𝐨 𝐁𝐮𝐫𝐧𝐝𝐨𝐰𝐧: https://docs.google.com/spreadsheets/d/1SxAbhuweVsbABp_5_uTydBdyIK2thJMZV7LQk6XsH_8/edit?usp=drivesdk
-Apresentação em slides: HORA DE TESTAR!
-![image](https://user-images.githubusercontent.com/102261833/163288692-2110bbe5-4642-4422-ad50-d5c85254c0cb.png)
+Apresentação em slides: https://fatecspgov-my.sharepoint.com/personal/marcella_amaral_fatec_sp_gov_br/Documents/API/ASSISTENTE%20VIRTUAL%20PESSOAL%20MO%20VIAGEM.pdf?CT=1649894485891&OR=ItemsView
 
 
