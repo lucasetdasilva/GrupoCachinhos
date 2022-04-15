@@ -3,7 +3,7 @@ import pyttsx3
 import os
 import datetime
 import requests
-from translate import Translate
+from translate import Translator
 
 #from kivy.lang import Builder
 #from kivy.uix.screenmanager import Screen, ScreenManager
