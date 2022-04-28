@@ -17,7 +17,7 @@ Projeto de API 1BD 1º semestre - Mó Viagem
       ✔ Roteiro de viagens;</br>
       ✔ Comparação de preços;</br>
       ✔ Curiosidades;</br>
-      ✔ Calendário;</br>
+      ✔ Calendário (a validar);</br>
      
  
  
@@ -34,7 +34,6 @@ Projeto de API 1BD 1º semestre - Mó Viagem
 💻 𝐓𝐞𝐜𝐧𝐨𝐥𝐨𝐠𝐢𝐚𝐬 𝐚𝐩𝐥𝐢𝐜𝐚𝐝𝐚𝐬(𝐥𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐩𝐲𝐭𝐡𝐨𝐧):</br>
  ▫ SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
  ▫ PyAudio: https://pypi.org/project/PyAudio/;</br>
- ▫ Kivy: https://kivy.org/#home; </br>
  ▫ Calendar: https://docs.python.org/3/library/calendar.html</br>
  ▫ datetime: https://docs.python.org/3/library/datetime.html
  https://www.meteomatics.com/en/
