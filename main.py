@@ -5,17 +5,6 @@ import datetime
 import requests
 from translate import Translator
 
-#from kivy.lang import Builder
-#from kivy.uix.screenmanager import Screen, ScreenManager
-#from kivy.uix.label import Label
-#from kivy.uix.button import Button
-#from kivy.uix.widget import Widget
-#from kivy.uix.image import Image
-#from kivymd.uix.label import MDLabel
-#from kivymd.app import MDApp
-#from kivymd.uix.button import MDRaisedButton
-#from kivymd.uix.button import MDRoundFlatIconButton
-
 
 def tradutor(palavra):
     translator= Translator(to_lang="pt")
@@ -97,18 +86,5 @@ def ouvir():
 
     return texto
 
-
-
-#class Tela(MDApp):
-
-#    def build(self):
-#        self.theme_cls.theme_style = "Light"
-#        self.theme_cls.primary_palette = "Teal"
-#       self.title = "Assistente Virtual - Mó Viagem"
-#        return Builder.load_file('tela.kv')
-
-
-
 while True:
-    #Tela().run()
     ouvir()
