@@ -13,11 +13,11 @@ Projeto de API 1BD 1º semestre - Mó Viagem
       ✔ Previsão do tempo;</br>
       ✔ Lista de desejos (locais);</br>
       ✔ Avaliações no app;</br>
-      ✔ Pesquisa;</br>
+      ✔ Pesquisa de agências;</br>
       ✔ Roteiro de viagens;</br>
       ✔ Comparação de preços;</br>
       ✔ Curiosidades;</br>
-      ✔ Sugestão de frases/palavras;</br>
+     
  
  
  ◾ 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐧𝐭𝐞𝐬 𝐝𝐨 𝐠𝐫𝐮𝐩𝐨:</br>
