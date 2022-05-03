@@ -43,11 +43,11 @@ Projeto de API 1BD 1º semestre - Mó Viagem
 
 ◾ 𝐋𝐢𝐧𝐤 𝐓𝐫𝐞𝐥𝐥𝐨 (Kanban+backlog do produto): https://trello.com/invite/b/6ZzeEErO/1ff9ed1d93eecabca050c4d31655d86c/api
 
+◾ **fhfdy**Backlog da 𝐒𝐩𝐫𝐢𝐧𝐭 𝟏 (𝟐𝟓/𝟎𝟑 - 𝟏𝟒/𝟎𝟒)⭐</br>
 ◾ 𝐒𝐩𝐫𝐢𝐧𝐭 𝟏 (𝟐𝟓/𝟎𝟑 - 𝟏𝟒/𝟎𝟒)⭐</br>
  ▫ Entrega do planejamento;</br>
  ▫ Reconhecimento de voz;</br>
  ▫ Previsão do tempo;</br>
- ▫ Spoiler: Interface;</br>
  ▫ Estudo e implementação da linguagem Python.
  ▫ Gráfico de Burndown
 
