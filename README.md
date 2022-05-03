@@ -60,7 +60,8 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  ▫ Roteiro de Viagens (2);</br>
  ▫ Pesquisa de Agências (3);</br>
 
-📆𝐂𝐫𝐨𝐧𝐨𝐠𝐫𝐚𝐦𝐚:  ![Capturar](https://user-images.githubusercontent.com/102192428/166587100-95bd37f4-4835-4fa0-ad68-00088d4bb333.PNG)
+📆𝐂𝐫𝐨𝐧𝐨𝐠𝐫𝐚𝐦𝐚: ![Capturar_Easy-Resize com](https://user-images.githubusercontent.com/102192428/166587349-e372b59f-09ca-46eb-a43b-9974293e32fb.jpg)
+
 
 
 🔥𝐆𝐫𝐚́𝐟𝐢𝐜𝐨 𝐁𝐮𝐫𝐧𝐝𝐨𝐰𝐧: https://docs.google.com/spreadsheets/d/1SxAbhuweVsbABp_5_uTydBdyIK2thJMZV7LQk6XsH_8/edit?usp=drivesdk
