@@ -61,7 +61,8 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  ▫ Pesquisa de Agências (3);</br>
 
 📆𝐂𝐫𝐨𝐧𝐨𝐠𝐫𝐚𝐦𝐚: <div class="container">
-               <img src="trabalho.PNG" width="320" height="205" />
+               <img src="![trabalho](https://user-images.githubusercontent.com/102192428/166587949-b79d68de-4f3c-454c-b760-c6609c5a012c.PNG)
+" width="320" height="205" />
               </div>
 
 
