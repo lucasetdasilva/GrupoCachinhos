@@ -18,9 +18,9 @@ def convertFala(texto):
     engine.runAndWait()
 
 
-
 def ouvir():
 
+    
     rec = sr.Recognizer()
 
 
@@ -45,7 +45,7 @@ def ouvir():
             convertFala("Olá, bem-vindo a sua Assistente Virtual de Viagens")
             convertFala("Me chamo Mó Viagem hihihi, no que posso te ajudar?")
 
-
+        #Previsão do tempo
         elif "previsão do tempo" in texto:
             convertFala("Para onde você pretende ir")
             api = "a143cba82f2ee6901732e51ece9014df"
@@ -71,6 +71,28 @@ def ouvir():
             elif (converter >= 16 and converter <= 27):
                 convertFala("Hoje o clima estará agradável, aproveite")
 
+        #Locais mais vistado em cada estação
+        elif "locais mais visitados" in texto:
+            outono = ["Pantanal", "Chapada dos Veadeiros", "Gramado", "Campos do Jordão", "Florianópolis"]
+            inverno = ["Diamantina", "Monte Verde", "São bento do Sapucaí", "Bento Gonçalves", "Vale dos Vimnhedos"]
+            primavera = ["Atibaia", "Holambra", "Cunha", "Poços de Caldas", "Belo Horizonte"]
+            verao = ["Fortaleza", "Aracajú", "Recife", "Caldas Novas", "Porto Seguro"]
+            convertFala('Por Favor diga uma estação:')
+            estacao = ouvir()
+            if "outono" in estacao:
+                convertFala('os melhores locais para se viajar no outono:')
+                convertFala(outono)
+            elif "inverno" in estacao:
+                convertFala('melhores destinos para curtir o frio do inverno:')
+                convertFala(inverno)
+            elif "primavera" in estacao:
+                convertFala('onde aproveitar a estação das flores:')
+                convertFala(primavera)
+            elif "verão" in estacao:
+                convertFala('Cidades para aproveitar o calor do verão:')
+                convertFala(verao)
+
+            
 
         elif "até mais" in texto:
             convertFala("Até uma outra ocasião, beijos beijos")
