@@ -22,14 +22,14 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  
  
  ◾ 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐧𝐭𝐞𝐬 𝐝𝐨 𝐠𝐫𝐮𝐩𝐨:</br>
- ▫ Cainan Thomas Branco Santos;</br>
- ▫ Daniele de Jesus Souza;</br>
- ▫ Guilherme Augusto Wunderlich Serapião;</br>
- ▫ Isabela dos Santos Pereira;</br>
- ▫ Júlia Pereira Quitério;</br>
- ▫ Lucas Emanoel Teixeira Engracio da Silva;</br>
- ▫ Marcella Yanes Borges do Amaral;</br>
- ▫ Yasmin da Silva Santana.</br>
+ ▫ Cainan Thomas Branco Santos; 💁🏾‍♂️</br>
+ ▫ Daniele de Jesus Souza; 🧏🏾‍♀️</br>
+ ▫ Guilherme Augusto Wunderlich Serapião; 🧏🏻‍♂️</br>
+ ▫ Isabela dos Santos Pereira; 🙎🏾‍♀️</br>
+ ▫ Júlia Pereira Quitério; 🙎🏽‍♀️</br>
+ ▫ Lucas Emanoel Teixeira Engracio da Silva; 💁🏾‍♂️</br>
+ ▫ Marcella Yanes Borges do Amaral; 💁🏻‍♀️</br>
+ ▫ Yasmin da Silva Santana.🙆🏻‍♀️</br>
 
  💻⌨️ 𝐓𝐞𝐜𝐧𝐨𝐥𝐨𝐠𝐢𝐚𝐬 𝐚𝐩𝐥𝐢𝐜𝐚𝐝𝐚𝐬(𝐥𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐩𝐲𝐭𝐡𝐨𝐧):</br>
  ▫ SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
