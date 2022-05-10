@@ -10,38 +10,40 @@ Projeto de API 1BD 1º semestre - Mó Viagem
  
  
 ◾ 𝐅𝐮𝐧𝐜𝐢𝐨𝐧𝐚𝐥𝐢𝐝𝐚𝐝𝐞𝐬:</br>
-      ✔ Previsão do tempo;</br>
-      ✔ Lista de desejos (locais);</br>
-      ✔ Avaliações no app;</br>
-      ✔ Pesquisa de agências;</br>
-      ✔ Roteiro de viagens;</br>
-      ✔ Comparação de preços;</br>
-      ✔ Curiosidades;</br>
-      ✔ Calendário de Feriados;</br>
+      ✔️ Previsão do tempo;</br>
+      ✔️ Lista de desejos (locais);</br>
+      ✔️ Avaliações no app;</br>
+      ✔️ Pesquisa de agências;</br>
+      ✔️ Roteiro de viagens;</br>
+      ✔️ Comparação de preços;</br>
+      ✔️ Curiosidades;</br>
+      ✔️ Calendário de Feriados;</br>
      
  
  
  ◾ 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐧𝐭𝐞𝐬 𝐝𝐨 𝐠𝐫𝐮𝐩𝐨:</br>
- ▫ Cainan Thomas;</br>
- ▫ Daniele de Jesus;</br>
- ▫ Guilherme Wunderlich;</br>
- ▫ Isabela Pereira;</br>
- ▫ Júlia Pereira;</br>
- ▫ Lucas Emanoel;</br>
- ▫ Marcella Yanes;</br>
- ▫ Yasmin Santana.</br>
+ ▫ Cainan Thomas Branco Santos;</br>
+ ▫ Daniele de Jesus Souza;</br>
+ ▫ Guilherme Augusto Wunderlich Serapião;</br>
+ ▫ Isabela dos Santos Pereira;</br>
+ ▫ Júlia Pereira Quitério;</br>
+ ▫ Lucas Emanoel Teixeira Engracio da Silva;</br>
+ ▫ Marcella Yanes Borges do Amaral;</br>
+ ▫ Yasmin da Silva Santana.</br>
 
-💻 𝐓𝐞𝐜𝐧𝐨𝐥𝐨𝐠𝐢𝐚𝐬 𝐚𝐩𝐥𝐢𝐜𝐚𝐝𝐚𝐬(𝐥𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐩𝐲𝐭𝐡𝐨𝐧):</br>
+ 💻⌨️ 𝐓𝐞𝐜𝐧𝐨𝐥𝐨𝐠𝐢𝐚𝐬 𝐚𝐩𝐥𝐢𝐜𝐚𝐝𝐚𝐬(𝐥𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐩𝐲𝐭𝐡𝐨𝐧):</br>
  ▫ SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
  ▫ PyAudio: https://pypi.org/project/PyAudio/;</br>
  ▫ Calendar: https://docs.python.org/3/library/calendar.html</br>
  ▫ datetime: https://docs.python.org/3/library/datetime.html
- https://www.meteomatics.com/en/
- https://pypi.org/project/openweather/
-
+            https://www.meteomatics.com/en/
+           https://pypi.org/project/openweather/
+ ▫ wikipédia: https://pypi.org/project/wikipedia/
+ ▫ Wikipédia-API: https://pypi.org/project/Wikipedia-API/
+  
  
 
-◾ 𝐋𝐢𝐧𝐤 𝐓𝐫𝐞𝐥𝐥𝐨 (Kanban+backlog do produto): https://trello.com/invite/b/6ZzeEErO/1ff9ed1d93eecabca050c4d31655d86c/api
+ 🔗 𝐋𝐢𝐧𝐤 𝐓𝐫𝐞𝐥𝐥𝐨 (Kanban+backlog do produto): https://trello.com/invite/b/6ZzeEErO/1ff9ed1d93eecabca050c4d31655d86c/api
 
 ◾ **Sprint Backlog da 1 Sprint**(𝟐𝟓/𝟎𝟑 - 𝟏𝟒/𝟎𝟒)⭐</br>
  ▫ Reconhecimento de voz;</br>
