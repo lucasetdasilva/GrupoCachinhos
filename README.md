@@ -21,7 +21,7 @@ Projeto de API 1BD 1º semestre - Mó Viagem
      
  
  
- ◾ 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐧𝐭𝐞𝐬 𝐝𝐨 𝐠𝐫𝐮𝐩𝐨:</br>
+ 👬👫🧑‍🤝‍🧑 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐧𝐭𝐞𝐬 𝐝𝐨 𝐠𝐫𝐮𝐩𝐨:</br>
  ▫ Cainan Thomas Branco Santos; 💁🏾‍♂️</br>
  ▫ Daniele de Jesus Souza; 🧏🏾‍♀️</br>
  ▫ Guilherme Augusto Wunderlich Serapião; 🧏🏻‍♂️</br>
