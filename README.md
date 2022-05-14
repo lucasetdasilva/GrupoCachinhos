@@ -1,5 +1,5 @@
-<h1 align="center"> GRUPO CACHINHOS - MÓ VIAGEM
-<h1 align="center">![logopequena](https://user-images.githubusercontent.com/71770652/161846651-391a201b-48de-4b73-a8da-1f612c366ac1.jpg)
+<h1 align="center"> GRUPO CACHINHOS - MÓ VIAGEM </h1>
+<h1 align="center">![logopequena](https://user-images.githubusercontent.com/71770652/161846651-391a201b-48de-4b73-a8da-1f612c366ac1.jpg)</h1>
 
 ❔ 𝐎 𝐪𝐮𝐞 𝐞́?</br>
  ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são no exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que este pode aproveitar seu passeio em seu próprio país; o qual ainda não possui as belas paisagens valorizadas. É preciso mais valorização e apreciação quanto à cultura       brasileira.</br>
