@@ -18,7 +18,7 @@
 - `Calendário de Feriados`</br>
      
  
-## **BACKLOG DO PRODUTO**: <br>
+## **Backlog do produto**: <br>
 - Curiosidades da localidade (1);<br>
 - Locais mais procurados em cada estação do ano (1);<br>
 - Roteiro de viagem (2);<br>
@@ -31,7 +31,7 @@
 
 
 
-## 💻⌨️ Tecnologias aplicadas:</br>
+## 💻Tecnologias aplicadas:</br>
 - SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
 - PyAudio: https://pypi.org/project/PyAudio/;</br>
 - Calendar: https://docs.python.org/3/library/calendar.html</br>
@@ -44,12 +44,12 @@
  
 
 
- ## 🏁 **Sprint Backlog da 1 Sprint**(𝟐𝟓/𝟎𝟑 - 𝟏𝟒/𝟎𝟒)</br>
+ ## 🏁 Sprint Backlog da 1 Sprint( 25/03 - 14/04)</br>
  - Reconhecimento de voz;</br>
  - Previsão do tempo;</br>
 
  
- ## 🏁 **Sprint Backlog da 2 Sprint**(25/𝟎4 - 𝟏5/𝟎𝟒)</br>
+ ## 🏁Sprint Backlog da 2 Sprint(25/04 - 15/04)</br>
  - Curiosidades da localidade;</br>
  - Locais mais procurados em cada estação do ano;</br>
  - Roteiro de Viagens;</br>
@@ -59,8 +59,6 @@
 
 <a href="url"><img src="https://user-images.githubusercontent.com/102192428/166844439-2cfea370-6189-41da-b1ab-74f8e4f53f48.PNG" 
 align="center" height="600" width="700" ></a>
-
-![image](https://user-images.githubusercontent.com/102261833/167972639-243ad725-f9e1-4454-9533-cd9d85d95e11.png)
 
 
 
