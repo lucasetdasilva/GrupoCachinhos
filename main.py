@@ -275,8 +275,8 @@ def ouvir():
             
         #Curiosidades
         elif "curiosidades" and "curiosidade" in texto:
-            s=str(input("Digita ai krl: "))
-            l=wikipedia.summary(s)
+            s=str(input("De qual cidade você deseja saber as curiosidades: "))
+            l=wikipedia.summary(s, sentences=2)
             print(l) 
 
     except sr.UnknownValueError:
