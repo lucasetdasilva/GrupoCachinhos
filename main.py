@@ -274,10 +274,23 @@ def ouvir():
             
             
         #Curiosidades
-        elif "curiosidades" and "curiosidade" in texto:
-            s=str(input("De qual cidade você deseja saber as curiosidades: "))
-            l=wikipedia.summary(s, sentences=2)
-            print(l) 
+        elif "curiosidades" or "curiosidade" in texto:
+            
+            convertFala("Quer conhecer qual cidade")
+            rec = sr.Recognizer()
+
+            with sr.Microphone() as mic:
+                print("Por favor, fale o nome da cidade para saber as curiosidades: ")
+                rec.adjust_for_ambient_noise(mic)
+                audio = rec.listen(mic)
+
+            curiosidade = rec.recognize_google(audio, language="pt-BR")
+                      
+            wikipedia.set_lang('pt')
+            
+            resposta = wikipedia.summary(curiosidade, sentences=2)
+            print(resposta)
+            convertFala(resposta)
 
     except sr.UnknownValueError:
         convertFala("Não entendi, poderia repetir")
