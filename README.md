@@ -18,7 +18,7 @@
 - `Calendário de Feriados`</br>
      
  
-## **Backlog do produto**: <br>
+## **Backlog Prorizado do produto**: <br>
 - Curiosidades da localidade (1);<br>
 - Locais mais procurados em cada estação do ano (1);<br>
 - Roteiro de viagem (2);<br>
@@ -27,7 +27,8 @@
 - Lista de desejos (1);<br>
 - Calendário de feriados (2);<br>
 - Comparação de preços (3);<br>
-- Previsão do tempo (1)<br>
+- Previsão do tempo (1);<br>
+- Reconhecimento de voz (1).</br> 
 
 
 
