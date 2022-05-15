@@ -34,12 +34,8 @@
 ## 💻Tecnologias aplicadas:</br>
 - SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
 - PyAudio: https://pypi.org/project/PyAudio/;</br>
-- Calendar: https://docs.python.org/3/library/calendar.html</br>
-- datetime: https://docs.python.org/3/library/datetime.html
-            https://www.meteomatics.com/en/
            https://pypi.org/project/openweather/
  - wikipédia: https://pypi.org/project/wikipedia/</br>
- - Wikipédia-API: https://pypi.org/project/Wikipedia-API/
   
  
 
@@ -49,7 +45,7 @@
  - Previsão do tempo;</br>
 
  
- ## 🏁Sprint Backlog da 2 Sprint(25/04 - 15/04)</br>
+ ## 🏁Sprint Backlog da 2 Sprint(25/04 - 15/05)</br>
  - Curiosidades da localidade;</br>
  - Locais mais procurados em cada estação do ano;</br>
  - Roteiro de Viagens;</br>
