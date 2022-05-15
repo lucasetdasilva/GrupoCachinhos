@@ -99,8 +99,38 @@ def ouvir():
             print("Estarei esperando o seu retorno :)")
             breakpoint()
 
-         #elif "curiosidades sobre uma cidade" in texto:
+         #elif "curiosidades sobre uma cidade" in text:
+        elif "roteiro" in texto:
+            convertFala("Qual cidade você quer conhecer")
 
+            rec = sr.Recognizer()
+
+            with sr.Microphone() as mic:
+                print("Por favor, fale o nome da cidade para saber o roteiro de viagem: ")
+                rec.adjust_for_ambient_noise(mic)
+                audio = rec.listen(mic)
+
+            roteiro = rec.recognize_google(audio, language="pt-BR")
+
+            wikipedia.set_lang('pt')
+
+            resposta = wikipedia.page(roteiro)
+            print('Roteiro da cidade escolhida: ', roteiro)
+            print('\n')
+            print("Caso retorne em branco não foi encontrado o roteiro da cidade desejada.")
+
+            conteudo = resposta.section(section_title='Turismo')
+            conteudo2 = resposta.section(section_title='Cultura')
+
+            print(conteudo)
+            convertFala(conteudo)
+
+            print("Cultura da cidade:", roteiro)
+            print('\n')
+            print(conteudo2)
+            convertFala(conteudo2)
+            # A biblioteca wikipedia RETORNA NONE para subtópicos, ainda que correspondam ao tópico 'Turismo/Cultura' (função elif/else não funciona neste caso)
+            print('')
 
 
     except sr.UnknownValueError:
