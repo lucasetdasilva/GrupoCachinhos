@@ -32,16 +32,7 @@ def ouvir():
     try:
         texto = rec.recognize_google(audio, language="pt-BR")
 
-        if "lista de frases" in texto:
-            convertFala("Essas são as frases que você pode falar para mim")
-            print("1- Previsão do tempo ")
-            print("2- Conhecer um local novo")
-            print("3- Lista de Desejos")
-            print("4- Viajar")
-            print("5- Locais mais visitados em cada estação")
-            print("6- Roteiro de Viagem")
-
-        elif "viajar" in texto:
+        if "viajar" in texto:
             convertFala("Olá, bem-vindo a sua Assistente Virtual de Viagens")
             convertFala("Me chamo Mó Viagem hihihi, no que posso te ajudar?")
 
@@ -91,15 +82,157 @@ def ouvir():
             elif "verão" in estacao:
                 convertFala('Cidades para aproveitar o calor do verão:')
                 convertFala(verao)
+        
+        #pesquisar agencias
+        elif "pesquisar agências" in texto:
+            convertFala("Qual tipo de viagem você prefere")
+            print("1- Ecoturismo")
+            print("2- Para toda família")
+            print("3- Gastronômico")
+            print("4- Parques temáticos")
 
-            
+            col_names =['gastronomico', 'descricaog', 'urlg', 'aventura', 'descricaoa', 'urla', 'familia', 'descricaof', 'urlf', 'parque', 'descricaop', 'urlp']
+            tabela = pd.read_excel('api.xlsx', names = col_names)
 
+            rec = sr.Recognizer()
+
+            with sr.Microphone() as mic:
+                print("Escolha um para prosseguir")
+                rec.adjust_for_ambient_noise(mic)
+                audio = rec.listen(mic)
+            opcao = rec.recognize_google(audio, language="pt-BR")
+
+            if "ecoturismo" in opcao:
+                convertFala("Essas são as opções de viagens de Ecoturismo")
+                eco = tabela['aventura'][:]
+                print(eco)
+                print("\n")
+                convertFala("Caso tenha se interessado em alguma agência, clique no link para ser redirecionado para o site")
+                eco2 = tabela['urla'][:]
+                print(eco2)
+
+                convertFala("Quer ver a descrição das agências")
+
+                rec = sr.Recognizer()
+
+                with sr.Microphone() as mic:
+                    print("Escolha um para prosseguir")
+                    rec.adjust_for_ambient_noise(mic)
+                    audio = rec.listen(mic)
+                escolha = rec.recognize_google(audio, language="pt-BR")
+
+                if "sim" in escolha:
+                    convertFala("Aqui está")
+                    desc = tabela['descricaoa']
+                    print(desc)
+
+                elif "não" in escolha:
+                    convertFala("Tudo bem")
+
+                else:
+                    convertFala("Não entendi")
+
+            elif "para toda família" in opcao:
+                convertFala("Essas são as opções de viagens para toda família")
+                famil = tabela['familia'][:]
+                print(famil)
+                print("\n")
+                convertFala("Caso tenha se interessado em alguma agência, clique no link para ser redirecionado para o site")
+                famil2 = tabela['urlf'][:]
+                print(famil2)
+
+                convertFala("Quer ver a descrição das agências")
+
+                rec = sr.Recognizer()
+
+                with sr.Microphone() as mic:
+                    print("Escolha um para prosseguir")
+                    rec.adjust_for_ambient_noise(mic)
+                    audio = rec.listen(mic)
+                escolha2 = rec.recognize_google(audio, language="pt-BR")
+
+                if "sim" in escolha2:
+                    convertFala("Aqui está")
+                    desc2 = tabela['descricaof']
+                    print(desc2)
+
+                elif "não" in escolha2:
+                    convertFala("Tudo bem")
+
+                else:
+                    convertFala("Não entendi")
+
+            elif "gastronômico" in opcao:
+                convertFala("Essas são as opções de viagens gastronômicas")
+                gastronomia = tabela['gastronomico'][:]
+                print(gastronomia)
+                print("\n")
+                convertFala("Caso tenha se interessado em alguma agência, clique no link para ser redirecionado para o site")
+                gastronomia2 = tabela['urlg'][:]
+                print(gastronomia2)
+
+                convertFala("Quer ver a descrição das agências")
+
+                rec = sr.Recognizer()
+
+                with sr.Microphone() as mic:
+                    print("Escolha um para prosseguir")
+                    rec.adjust_for_ambient_noise(mic)
+                    audio = rec.listen(mic)
+                escolha3 = rec.recognize_google(audio, language="pt-BR")
+
+                if "sim" in escolha3:
+                    convertFala("Aqui está")
+                    desc3 = tabela['descricaog'][:]
+                    print(desc3)
+
+                elif "não" in escolha3:
+                    convertFala("Tudo bem")
+
+                else:
+                    convertFala("Não entendi")
+
+            elif "parques temáticos" in opcao:
+                convertFala("Essas são as opções de viagens de parques temáticos")
+                par = tabela['parque'][:]
+                print(par)
+                print("\n")
+                convertFala("Caso tenha se interessado em alguma agência, clique no link para ser redirecionado para o site")
+                par2 = tabela['urlp'][:]
+                print(par2)
+                convertFala("Quer ver a descrição das agências")
+
+                rec = sr.Recognizer()
+
+                with sr.Microphone() as mic:
+                    print("Escolha um para prosseguir")
+                    rec.adjust_for_ambient_noise(mic)
+                    audio = rec.listen(mic)
+                escolha4 = rec.recognize_google(audio, language="pt-BR")
+
+                if "sim" in escolha4:
+                    convertFala("Aqui está")
+                    desc4 = tabela['descricaop'][:]
+                    print(desc4)
+
+                elif "não" in escolha4:
+                    convertFala("Tudo bem")
+
+                else:
+                    convertFala("Não entendi")
+
+            else:
+                convertFala("Esse parâmetro não existe")
+
+        #despedida
         elif "até mais" in texto:
             convertFala("Até uma outra ocasião, beijos beijos")
             print("Estarei esperando o seu retorno :)")
             breakpoint()
 
-         #elif "curiosidades sobre uma cidade" in text:
+        #elif "curiosidades sobre uma cidade" in text:
+        
+        #roteiro de viagens
         elif "roteiro" in texto:
             convertFala("Qual cidade você quer conhecer")
 
