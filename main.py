@@ -5,7 +5,7 @@ import pandas as pd
 import wikipedia
 from translate import Translator
 
-
+wikipedia.set_lang("pt")
 def tradutor(palavra):
     translator= Translator(to_lang="pt")
     translation =  translator.translate(palavra)
@@ -271,7 +271,14 @@ def ouvir():
             convertFala(conteudo2)
             # A biblioteca wikipedia RETORNA NONE para subtópicos, ainda que correspondam ao tópico 'Turismo/Cultura' (função elif/else não funciona neste caso)
             print('')
-
+            
+            
+        #Curiosidades
+        elif "curiosidades" and "curiosidade" in texto:
+            s=str(input("Digita ai krl: "))
+            l=wikipedia.summary(s)
+            print(l)
+            
 
     except sr.UnknownValueError:
         convertFala("Não entendi, poderia repetir")
