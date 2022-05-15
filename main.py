@@ -1,8 +1,8 @@
 import speech_recognition as sr
 import pyttsx3
-import os
-import datetime
 import requests
+import pandas as pd
+import wikipedia
 from translate import Translator
 
 
