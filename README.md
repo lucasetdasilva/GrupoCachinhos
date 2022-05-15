@@ -67,10 +67,10 @@
 ## 📆𝐂𝐫𝐨𝐧𝐨𝐠𝐫𝐚𝐦𝐚:</br> 
 
 <a href="url"><img src="https://user-images.githubusercontent.com/102192428/166844439-2cfea370-6189-41da-b1ab-74f8e4f53f48.PNG" 
-align="center" height="600" width="700" ></a>
+align="center" height="600" width="700" ></a></br>
 
 
 
 ## 📈𝐆𝐫𝐚́𝐟𝐢𝐜𝐨 𝐁𝐮𝐫𝐧𝐝𝐨𝐰𝐧:</br> 
 
-![Screenshot](burndown.png)
+![Screenshot](burndown.png)</br>
