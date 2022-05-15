@@ -65,22 +65,29 @@ def ouvir():
         #Locais mais vistado em cada estação
         elif "locais mais visitados" in texto:
             outono = ["Pantanal", "Chapada dos Veadeiros", "Gramado", "Campos do Jordão", "Florianópolis"]
-            inverno = ["Diamantina", "Monte Verde", "São bento do Sapucaí", "Bento Gonçalves", "Vale dos Vimnhedos"]
+            inverno = ["Diamantina", "Monte Verde", "São bento do Sapucaí", "Bento Gonçalves", "Vale dos Vinhedos"]
             primavera = ["Atibaia", "Holambra", "Cunha", "Poços de Caldas", "Belo Horizonte"]
             verao = ["Fortaleza", "Aracajú", "Recife", "Caldas Novas", "Porto Seguro"]
             convertFala('Por Favor diga uma estação:')
             estacao = ouvir()
             if "outono" in estacao:
                 convertFala('os melhores locais para se viajar no outono:')
+                print(outono)
                 convertFala(outono)
+                
             elif "inverno" in estacao:
                 convertFala('melhores destinos para curtir o frio do inverno:')
+                print(inverno)
                 convertFala(inverno)
+                
             elif "primavera" in estacao:
                 convertFala('onde aproveitar a estação das flores:')
+                print(primavera)
                 convertFala(primavera)
+                
             elif "verão" in estacao:
                 convertFala('Cidades para aproveitar o calor do verão:')
+                print(verao)
                 convertFala(verao)
         
         #pesquisar agencias
