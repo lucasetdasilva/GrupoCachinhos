@@ -34,8 +34,9 @@
 ## 💻Tecnologias aplicadas:</br>
 - SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
 - PyAudio: https://pypi.org/project/PyAudio/;</br>
-           https://pypi.org/project/openweather/
- - wikipédia: https://pypi.org/project/wikipedia/</br>
+- API OpenWeather: https://openweathermap.org/;</br>
+- Pandas: https://pypi.org/project/pandas/;</br>
+- wikipédia: https://pypi.org/project/wikipedia/</br>
   
  
 
