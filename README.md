@@ -5,7 +5,18 @@
  ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são no exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que este pode aproveitar seu passeio em seu próprio país; o qual ainda não possui as belas paisagens valorizadas.<br>
  ▫ "Mó Viagem" é uma assistente virtual com o nicho "Viagens". Seu principal objetivo é auxiliar o usuário a planejar sua próxima aventura. </br>
  ▫ Formato escolhido: Desktop.</br>
- 
+
+
+## Integrantes do grupo: </br>
+- Cainan Thomas Branco Santos: Desenvolvedor</br>
+- Dainele de Jeseus Souza: Desenvolvedora</br>
+- Guilherme Augusto Wunderlich Serapião: Desenvolvedor</br>
+- Isabela dos Santos Pereira: Desenvolvedora</br>
+- Júlia Pereira Quitério: Desenvolvedora</br>
+- Lucas Emanoel Teixeira Engracio da Silva: Scrum Master</br>
+- Marcella Yanes Borges do Amaral: Product Owner</br>
+- Yasmin da Silva Santana: Desenvolvedora</br>
+
  
 ## :hammer: Funcionalidades: </br>
 - `Previsão do tempo`: Nesta função, o usuário pode pesquisar a previsão do tempo no destino desejado. </br>
@@ -61,6 +72,3 @@ align="center" height="600" width="700" ></a>
 
 
 📈𝐆𝐫𝐚́𝐟𝐢𝐜𝐨 𝐁𝐮𝐫𝐧𝐝𝐨𝐰𝐧: https://docs.google.com/spreadsheets/d/1SxAbhuweVsbABp_5_uTydBdyIK2thJMZV7LQk6XsH_8/edit?usp=drivesdk
-
-## Integrantes do grupo
-| [<img src= 'https:avatars.githubusercontent.com/u/37356058?v=4"
