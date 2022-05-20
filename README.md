@@ -10,7 +10,7 @@
 
 ## Integrantes do grupo: </br>
 - Cainan Thomas Branco Santos: Desenvolvedor</br>
-- Dainele de Jeseus Souza: Desenvolvedora</br>
+- Dainele de Jesus Souza: Desenvolvedora</br>
 - Guilherme Augusto Wunderlich Serapião: Desenvolvedor</br>
 - Isabela dos Santos Pereira: Desenvolvedora</br>
 - Júlia Pereira Quitério: Desenvolvedora</br>
@@ -28,9 +28,10 @@
 - `Comparação de preços`: O programa irá mostrar as melhores opções de voos para o usuário</br>
 - `Curiosidades`: Serve caso o usuário queira saber um pouco mais sobre uma cidade</br>
 - `Calendário de Feriados`: Será feito um calendário que mostrará os próximos feriados prolonagados</br>
+- `Locais mais procurados por estação do ano`: É mostrado ao usuário os melhores destinos por estação do ano</br>
      
  
-## **Backlog Prorizado do produto**: <br>
+## **Backlog Priorizado do Produto**: <br>
 - Curiosidades da localidade (1);<br>
 - Locais mais procurados em cada estação do ano (1);<br>
 - Roteiro de viagem (2);<br>
@@ -40,7 +41,9 @@
 - Calendário de feriados (2);<br>
 - Comparação de preços (3);<br>
 - Previsão do tempo (1);<br>
-- Reconhecimento de voz (1).</br> 
+- Reconhecimento de voz (1).</br>
+## **Legenda: 1: Imprescendível, 2: Importante, 3: Desejável**.</br> 
+
 
 
 
@@ -49,7 +52,9 @@
 - PyAudio: https://pypi.org/project/PyAudio/;</br>
 - API OpenWeather: https://openweathermap.org/;</br>
 - Pandas: https://pypi.org/project/pandas/;</br>
-- wikipédia: https://pypi.org/project/wikipedia/</br>
+- Wikipédia: https://pypi.org/project/wikipedia/</br>
+- Requests: https://pypi.org/project/requests/</br>
+- Translator: https://pypi.org/project/translate/</br>
   
  
 
