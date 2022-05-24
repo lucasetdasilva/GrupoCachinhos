@@ -4,7 +4,7 @@ import requests
 import pandas as pd
 import wikipedia
 from translate import Translator
-
+Av={}
 
 def tradutor(palavra):
     translator= Translator(to_lang="pt")
@@ -291,6 +291,29 @@ def ouvir():
             resposta = wikipedia.summary(curiosidade, sentences=2)
             print(resposta)
             convertFala(resposta)
+            
+        elif "avaliações" in texto:
+            convertFala("O que deseja fazer Ver Avaliações ou Fazer uma: ")
+            rc = sr.Recognizer()
+            
+            if Oqd=="Fazer Avaliação":
+ 
+                s=str(input("Digite o local que deseja avaliar: "))
+                sa=str(input("Digite a sua avaliação e logo em seguida seu nome se desejar: "))
+
+                if s in Av:
+                    Av[s]+=(' , ')
+                    Av[s]+=(sa)
+                    s=''
+                    sa=''
+                else:
+                    Av={**Av,**{s:sa}}
+                    s=''
+                    sa=''
+            else:
+                s=str("De qual local deseja ver as avaliações: ")
+                print(Av[s])
+         
 
     except sr.UnknownValueError:
         convertFala("Não entendi, poderia repetir")
