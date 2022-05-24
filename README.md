@@ -23,13 +23,13 @@
 ## :hammer: Funcionalidades: </br>
 - `Previsão do tempo`: Nesta função, o usuário pode pesquisar a previsão do tempo no destino desejado. </br>
 - `Lista de desejos`: Através desta funcionalidade, o usuário pode criar uma lista de locais que ele deseja visitar.</br>
-- `Avaliações no app`: O usuário poderá falar para outros usuários suas experiências de viagens e recomendações de lugares</br>
-- `Pesquisa de agências`: Função a qual será mostrado agências e suas respectivas categorias (Ecoturismo, Gastronomia, Para toda Família e Parques Temáticos)</br>
-- `Roteiro de viagens`: De acordo com a cidade, será mostrado ao usuário pontos turísticos</br>
-- `Comparação de preços`: O programa irá mostrar as melhores opções de voos para o usuário</br>
-- `Curiosidades`: Serve caso o usuário queira saber um pouco mais sobre uma cidade</br>
-- `Calendário de Feriados`: Será feito um calendário que mostrará os próximos feriados prolonagados</br>
-- `Locais mais procurados por estação do ano`: É mostrado ao usuário os melhores destinos por estação do ano</br>
+- `Avaliações no app`: O usuário poderá falar para outros usuários suas experiências de viagens e recomendações de lugares.</br>
+- `Pesquisa de agências`: Função a qual será mostrado agências e suas respectivas categorias (Ecoturismo, Gastronomia, Para toda Família e Parques Temáticos).</br>
+- `Roteiro de viagens`: De acordo com a cidade, será mostrado ao usuário pontos turísticos.</br>
+- `Comparação de preços`: O programa irá mostrar as melhores opções de voos para o usuário.</br>
+- `Curiosidades`: Serve caso o usuário queira saber um pouco mais sobre uma cidade.</br>
+- `Calendário de Feriados`: Será feito um calendário que mostrará os próximos feriados prolonagados.</br>
+- `Locais mais procurados por estação do ano`: É mostrado ao usuário os melhores destinos por estação do ano.</br>
      
  
 ## **Backlog Priorizado do Produto**: <br>
@@ -45,9 +45,6 @@
 - Reconhecimento de voz (1).</br>
 ## **Legenda: 1: Imprescendível, 2: Importante, 3: Desejável**.</br> 
 
-
-
-
 ## 💻Tecnologias aplicadas:</br>
 - SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
 - PyAudio: https://pypi.org/project/PyAudio/;</br>
@@ -57,25 +54,23 @@
 - Requests: https://pypi.org/project/requests/</br>
 - Translator: https://pypi.org/project/translate/</br>
   
- 
-
 
  ## 🏁 Sprint Backlog da 1ª Sprint( 25/03 - 14/04)</br>
  - Reconhecimento de voz;</br>
- - Previsão do tempo;</br>
+ - Previsão do tempo.</br>
 
  
  ## 🏁Sprint Backlog da 2ª Sprint(25/04 - 15/05)</br>
  - Curiosidades da localidade;</br>
  - Locais mais procurados em cada estação do ano;</br>
  - Roteiro de Viagens;</br>
- - Pesquisa de Agências</br>
+ - Pesquisa de Agências.</br>
  
  ## 🏁Sprint Backlog da 3ª Sprint (16/05 - 05/06)</br>
  - Avaliações no aplicativo;</br>
  - Lista de desejos;</br>
  - Calendário de feriados;</br>
- - Comparação de preços</br>
+ - Comparação de preços.</br>
 
 ## 📆Cronograma:</br> 
 
