@@ -1,7 +1,6 @@
 <h1 align="center"> GRUPO CACHINHOS - MÓ VIAGEM </h1></br>
-<center></br>
 ![Screenshot](logo.png)</br>
-</center></br>
+
 
 ##  Sobre a assistente</br>
  ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são no exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que este pode aproveitar seu passeio em seu próprio país; o qual ainda não possui as belas paisagens valorizadas.<br>
