@@ -1,6 +1,7 @@
 <h1 align="center"> GRUPO CACHINHOS - MÓ VIAGEM </h1>
-
-![Screenshot](logoo.png)</br>
+<center>
+![Screenshot](logoo.png)
+</center>
 
 ##  Sobre a assistente</br>
  ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são no exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que este pode aproveitar seu passeio em seu próprio país; o qual ainda não possui as belas paisagens valorizadas.<br>
@@ -59,16 +60,22 @@
  
 
 
- ## 🏁 Sprint Backlog da 1 Sprint( 25/03 - 14/04)</br>
+ ## 🏁 Sprint Backlog da 1ª Sprint( 25/03 - 14/04)</br>
  - Reconhecimento de voz;</br>
  - Previsão do tempo;</br>
 
  
- ## 🏁Sprint Backlog da 2 Sprint(25/04 - 15/05)</br>
+ ## 🏁Sprint Backlog da 2ª Sprint(25/04 - 15/05)</br>
  - Curiosidades da localidade;</br>
  - Locais mais procurados em cada estação do ano;</br>
  - Roteiro de Viagens;</br>
  - Pesquisa de Agências</br>
+ 
+ ## 🏁Sprint Backlog da 3ª Sprint (16/05 - 05/06)</br>
+ - Avaliações no aplicativo;</br>
+ - Lista de desejos;</br>
+ - Calendário de feriados;</br>
+ - Comparação de preços</br>
 
 ## 📆Cronograma:</br> 
 
