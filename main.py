@@ -294,11 +294,12 @@ def ouvir():
             
         elif "avaliações" in texto:
             convertFala("O que deseja fazer Ver Avaliações ou Fazer uma: ")
-            rc = sr.Recognizer()
+            Oqd = sr.Recognizer()
             
             if Oqd=="Fazer Avaliação":
  
-                s=str(input("Digite o local que deseja avaliar: "))
+                convertFala("Qual o local que deseja avaliar: "))
+                s = sr.Recognizer()
                 sa=str(input("Digite a sua avaliação e logo em seguida seu nome se desejar: "))
 
                 if s in Av:
@@ -311,8 +312,10 @@ def ouvir():
                     s=''
                     sa=''
             else:
-                s=str("De qual local deseja ver as avaliações: ")
+                convertFala("De qual local deseja ver as avaliações: ")
+                s = sr.Recognizer
                 print(Av[s])
+                s=''
          
 
     except sr.UnknownValueError:
