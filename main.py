@@ -296,7 +296,7 @@ def ouvir():
             convertFala("O que deseja fazer Ver Avaliações ou Fazer uma: ")
             Oqd = sr.Recognizer()
             
-            if Oqd=="Fazer Avaliação":
+            if Oqd=="fazer avaliação":
  
                 convertFala("Qual o local que deseja avaliar: "))
                 s = sr.Recognizer()
