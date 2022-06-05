@@ -6,6 +6,7 @@ import wikipedia
 from translate import Translator
 import re
 import holidays
+import webbrowser as wb
 feriados = holidays.Brazil()
 Av={}
 arquivos = []
@@ -382,10 +383,14 @@ def ouvir():
             convertFala("Até uma outra ocasião, beijos beijos")
             print("Estarei esperando o seu retorno :)")
             breakpoint()
-
-        #elif "curiosidades sobre uma cidade" in text:
         
-        #roteiro de viagens
+        #Comparação de Passagens Aéreas
+        elif "comparação de preços" in texto:
+            convertFala("Busquei um site para você ter maiores opções de comparação de preços de passagens aéreas, você será redirecionado para o Google Flights")
+            wb.open('https://www.google.com/flights?hl=pt-BR')
+        
+        
+        #Roteiro de viagens
         elif "roteiro" in texto:
             convertFala("Qual cidade você quer conhecer")
 
@@ -572,7 +577,7 @@ def ouvir():
                 
                 print(Av[voz2])
                 comentario = ''
-            voz=''
+                voz=''
          
 
     except sr.UnknownValueError:
