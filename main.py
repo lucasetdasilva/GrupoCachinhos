@@ -8,25 +8,26 @@ import re
 import holidays
 feriados = holidays.Brazil()
 Av={}
+arquivos = []
+contador = 0
 
 def tradutor(palavra):
     translator= Translator(to_lang="pt")
     translation =  translator.translate(palavra)
     return translation
 
-
 def convertFala(texto):
     engine = pyttsx3.init()
     engine.say(texto)
     engine.runAndWait()
 
-
 def ouvir():
 
-    
     rec = sr.Recognizer()
 
-
+    convertFala("Olá, bem-vindo a sua Assistente Virtual de Viagens")
+    convertFala("Me chamo Mó Viagem hihihi, no que posso te ajudar?")
+    
     with sr.Microphone() as mic:
         print("ouvindo")
         rec.adjust_for_ambient_noise(mic)
@@ -35,12 +36,8 @@ def ouvir():
     try:
         texto = rec.recognize_google(audio, language="pt-BR")
 
-        if "viajar" in texto:
-            convertFala("Olá, bem-vindo a sua Assistente Virtual de Viagens")
-            convertFala("Me chamo Mó Viagem hihihi, no que posso te ajudar?")
-
         #Previsão do tempo
-        elif "previsão do tempo" in texto:
+        if "previsão do tempo" in texto:
             convertFala("Para onde você pretende ir")
             api = "a143cba82f2ee6901732e51ece9014df"
             cidade = str(input("Qual o nome da cidade?"))
@@ -94,15 +91,23 @@ def ouvir():
                 convertFala(verao)
 
         #Calendario de Feriados
-        elif "calendario" or "calendario de feriados" in texto:
-          convertFala("Digite o mes que deseja saber os feriados ")
+        elif "calendário" or "calendário de feriados" in texto:
+            
+          convertFala("Fale o mês que deseja saber os feriados")
+          print("")
           mf = sr.Recognizer()
+          with sr.Microphone() as mic:
+                print("Qual o mês")
+                mf.adjust_for_ambient_noise(mic)
+                audio = mf.listen(mic)
+                
+          mes = mf.recognize_google(audio, language="pt-BR")
 
-          if mf=='janeiro':
-              for feriado in feriados['2020-01-01': '2020-01-31'] :
+          if mes == 'janeiro':
+              for feriado in feriados['2022-01-01': '2022-01-31'] :
                 convertFala('As datas com feriado em Janeiro são: \n')
 
-                x=str(feriados)
+                x = str(feriados)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -110,8 +115,8 @@ def ouvir():
                 print(x)
 
 
-          elif mf=='fevereiro':
-              for feriado in feriados['2020-02-01': '2020-02-28'] :
+          elif mes == 'fevereiro':
+              for feriado in feriados['2022-02-01': '2022-02-28'] :
                 convertFala('As datas com feriado em Fevereiro são: \n')
 
                 x=str(feriados)
@@ -121,8 +126,8 @@ def ouvir():
 
                 print(x)
 
-          elif mf=='março':
-              for feriado in feriados['2020-03-01': '2020-03-31'] :
+          elif mes == 'março':
+              for feriado in feriados['2022-03-01': '2022-03-31'] :
                 convertFala('As datas com feriado em Março são: \n')
 
                 x=str(feriados)
@@ -132,8 +137,8 @@ def ouvir():
 
                 print(x)
 
-          elif mf=='abril':
-              for feriado in feriados['2020-04-01': '2020-04-30'] :
+          elif mes == 'abril':
+              for feriado in feriados['2022-04-01': '2022-04-30'] :
                 convertFala('As datas com feriado em Abril são: \n')
 
                 x=str(feriados)
@@ -143,8 +148,8 @@ def ouvir():
 
                 print(x)
 
-          elif mf=='maio':
-              for feriado in feriados['2020-05-01': '2020-05-30'] :
+          elif mes == 'maio':
+              for feriado in feriados['2022-05-01': '2022-05-30'] :
                 convertFala('As datas com feriado em Maio são: \n')
 
                 x=str(feriados)
@@ -154,8 +159,8 @@ def ouvir():
 
                 print(x)
 
-          elif mf=='junho':
-              for feriado in feriados['2020-06-01': '2020-06-31'] :
+          elif mes == 'junho':
+              for feriado in feriados['2022-06-01': '2022-06-31'] :
                 convertFala('As datas com feriado em Junho são: \n')
 
                 x=str(feriados)
@@ -165,8 +170,8 @@ def ouvir():
 
                 print(x)
 
-          elif mf=='julho':
-              for feriado in feriados['2020-07-01': '2020-07-30'] :
+          elif mes == 'julho':
+              for feriado in feriados['2022-07-01': '2022-07-30'] :
                 convertFala('As datas com feriado em Julho são: \n')
 
                 x=str(feriados)
@@ -176,8 +181,8 @@ def ouvir():
 
                 print(x)
 
-          elif mf=='agosto':
-              for feriado in feriados['2020-08-01': '2020-08-31'] :
+          elif mes == 'agosto':
+              for feriado in feriados['2022-08-01': '2022-08-31'] :
                 convertFala('As datas com feriado em Agosto são: \n')
 
                 x=str(feriados)
@@ -187,8 +192,8 @@ def ouvir():
 
                 print(x)
 
-          elif mf=='setembro':
-              for feriado in feriados['2020-09-01': '2020-09-30'] :
+          elif mes == 'setembro':
+              for feriado in feriados['2022-09-01': '2022-09-30'] :
                 convertFala('As datas com feriado em Setembro são: \n')
 
                 x=str(feriados)
@@ -198,8 +203,8 @@ def ouvir():
 
                 print(x)
 
-          elif mf=='outubro':
-              for feriado in feriados['2020-10-01': '2020-10-31'] :
+          elif mes == 'outubro':
+              for feriado in feriados['2022-10-01': '2022-10-31'] :
                 convertFala('As datas com feriado em Outubro são: \n')
 
                 x=str(feriados)
@@ -209,8 +214,8 @@ def ouvir():
 
                 print(x)
 
-          elif mf=='novembro':
-              for feriado in feriados['2020-11-01': '2020-11-30'] :
+          elif mes == 'novembro':
+              for feriado in feriados['2022-11-01': '2022-11-30'] :
                 convertFala('As datas com feriado em Novembro são: \n')
 
                 x=str(feriados)
@@ -220,8 +225,8 @@ def ouvir():
 
                 print(x)
 
-          elif mf=='dezembro':
-              for feriado in feriados['2020-12-01': '2020-12-31'] :
+          elif mes == 'dezembro':
+              for feriado in feriados['2022-12-01': '2022-12-31'] :
                 convertFala('As datas com feriado em Dezembro são: \n')
 
                 x=str(feriados)
@@ -433,6 +438,89 @@ def ouvir():
             print(resposta)
             convertFala(resposta)
             
+        #Lista de Desejos
+        elif "desejos" in texto:
+            convertFala("Você deseja visualizar a lista ou adicionar")
+            print("\n")
+            print("1- Visualizar")
+            print("2- Adicionar")
+            print("\n")
+
+            rec = sr.Recognizer()
+
+            with sr.Microphone() as mic:
+                print("Escolha uma opção: ")
+                rec.adjust_for_ambient_noise(mic)
+                audio = rec.listen(mic)
+
+            resposta = rec.recognize_google(audio, language="pt-BR")
+
+            if ("visualizar" in resposta):
+                arquivo = open('lista.txt', 'r')
+                print("----Lista de Desejos----")
+
+                for linha in arquivo:
+                    print(linha.rstrip())
+                    convertFala(linha.rstrip())
+
+                print("Para retirar um destino da lista, vá até o arquivo lista.txt e elimine o que desejar")
+                convertFala("Para retirar ou alterar um destino da lista, vá até o arquivo lista.txt e elimine ou altere o que desejar")
+                arquivo.close()
+
+            elif ("adicionar" in resposta):
+                from classe import listadesejo
+                arquivos.append(listadesejo())
+                arquivo = open('lista.txt', 'a')
+
+                convertFala("Qual cidade você deseja visitar")
+                rec = sr.Recognizer()
+
+                with sr.Microphone() as mic:
+                    print("Qual o nome da cidade: ")
+                    rec.adjust_for_ambient_noise(mic)
+                    audio = rec.listen(mic)
+
+                nomecidade = rec.recognize_google(audio, language="pt-BR")
+
+                arquivos[contador].setnomecidade(nomecidade)
+
+                convertFala("Qual o nome do estado brasileiro")
+                rec2 = sr.Recognizer()
+
+                with sr.Microphone() as mic:
+                    print("Qual o nome do estado: ")
+                    rec2.adjust_for_ambient_noise(mic)
+                    audio = rec2.listen(mic)
+
+                estado = rec2.recognize_google(audio, language="pt-BR")
+
+                arquivos[contador].setestado(estado)
+
+                convertFala("Quais são os pontos turísticos")
+                rec3 = sr.Recognizer()
+
+                with sr.Microphone() as mic:
+                    print("Quais os pontos turísticos: ")
+                    rec3.adjust_for_ambient_noise(mic)
+                    audio = rec3.listen(mic)
+
+                ponto = rec3.recognize_google(audio, language="pt-BR")
+
+                arquivos[contador].setponto(ponto)
+
+                arquivo.write("--------------------" + "\n")
+                arquivo.write("Nome da Cidade:" + arquivos[contador].getnomecidade() + "\n")
+                arquivo.write("Nome do Estado:" + arquivos[contador].getestado() + "\n")
+                arquivo.write("Pontos Turísticos:" + arquivos[contador].getponto() + "\n")
+                arquivo.write("--------------------" + "\n")
+                arquivo.close()
+
+                print("Destino adicionado com sucesso")
+                convertFala("Destino adicionado com sucesso")
+            else:
+                convertFala("Não entendi, poderia repetir")
+    
+        #Avaliações    
         elif "avaliações" in texto:
             convertFala("O que deseja fazer Ver Avaliações ou Fazer uma: ")
             Oqd = sr.Recognizer()
