@@ -525,12 +525,12 @@ def ouvir():
             convertFala("O que deseja fazer: Ver Avaliações ou Fazer uma: ")
             oqd = sr.Recognizer()
             
-                with sr.Microphone() as mic:
-                    print("Escolha uma opção: ")
+            with sr.Microphone() as mic:
+                    print("Escolha uma opção: \n")
+                    print("Fazer avaliação ou Ver avaliação")
                     oqd.adjust_for_ambient_noise(mic)
                     audio = oqd.listen(mic)
-
-                voz = oqd.recognize_google(audio, language="pt-BR")
+                    voz = oqd.recognize_google(audio, language="pt-BR")
 
             
             if "fazer avaliação" in voz:
@@ -543,8 +543,7 @@ def ouvir():
                     print("Qual o nome do município: ")
                     s.adjust_for_ambient_noise(mic)
                     audio = s.listen(mic)
-
-                voz2 = s.recognize_google(audio, language="pt-BR")
+                    voz2 = s.recognize_google(audio, language="pt-BR")
                  
                 sa = sr.Recognizer()
                 
