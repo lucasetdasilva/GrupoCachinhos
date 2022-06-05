@@ -522,29 +522,62 @@ def ouvir():
     
         #Avaliações    
         elif "avaliações" in texto:
-            convertFala("O que deseja fazer Ver Avaliações ou Fazer uma: ")
-            Oqd = sr.Recognizer()
+            convertFala("O que deseja fazer: Ver Avaliações ou Fazer uma: ")
+            oqd = sr.Recognizer()
             
-            if Oqd=="fazer avaliação":
- 
-                convertFala("Qual o local que deseja avaliar: "))
-                s = sr.Recognizer()
-                sa=str(input("Digite a sua avaliação e logo em seguida seu nome se desejar: "))
+                with sr.Microphone() as mic:
+                    print("Escolha uma opção: ")
+                    oqd.adjust_for_ambient_noise(mic)
+                    audio = oqd.listen(mic)
 
-                if s in Av:
-                    Av[s]+=(' , ')
-                    Av[s]+=(sa)
-                    s=''
-                    sa=''
+                voz = oqd.recognize_google(audio, language="pt-BR")
+
+            
+            if "fazer avaliação" in voz:
+                    
+                convertFala("Qual o local que deseja avaliar")
+                print("Qual o local que deseja avaliar:")
+                s = sr.Recognizer()
+
+                with sr.Microphone() as mic:
+                    print("Qual o nome do município: ")
+                    s.adjust_for_ambient_noise(mic)
+                    audio = s.listen(mic)
+
+                voz2 = s.recognize_google(audio, language="pt-BR")
+                 
+                sa = sr.Recognizer()
+                
+                with sr.Microphone() as mic:
+                    print("Qual o seu comentário e, se quiser, seguido do seu nome:")
+                    sa.adjust_for_ambient_noise(mic)
+                    audio = sa.listen(mic)
+                    
+                comentario = sa.recognize_google(audio, language="pt-BR")
+
+                if voz2 in Av:
+                    Av[voz2] += (' , ')
+                    Av[voz2] += (comentario)
+                    voz2 = ''
+                    comentario = ''
                 else:
-                    Av={**Av,**{s:sa}}
-                    s=''
-                    sa=''
+                    Av = {**Av,**{voz2:comentario}}
+                    voz2 = ''
+                    comentario = ''
             else:
                 convertFala("De qual local deseja ver as avaliações: ")
+                print("De qual local deseja ver as avaliações: ")
                 s = sr.Recognizer
-                print(Av[s])
-                s=''
+                
+                with sr.Microphone() as mic:
+                    print("Qual o seu comentário e, se quiser, seguido do seu nome:")
+                    s.adjust_for_ambient_noise(mic)
+                    audio = s.listen(mic)
+                    
+                comentario = s.recognize_google(audio, language="pt-BR")
+                
+                print(Av[comentario])
+                comentario = ''
          
 
     except sr.UnknownValueError:
