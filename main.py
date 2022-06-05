@@ -107,7 +107,7 @@ def ouvir():
               for feriado in feriados['2022-01-01': '2022-01-31'] :
                 convertFala('As datas com feriado em Janeiro são: \n')
 
-                x = str(feriados)
+                x = str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -119,7 +119,7 @@ def ouvir():
               for feriado in feriados['2022-02-01': '2022-02-28'] :
                 convertFala('As datas com feriado em Fevereiro são: \n')
 
-                x=str(feriados)
+                x=str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -130,7 +130,7 @@ def ouvir():
               for feriado in feriados['2022-03-01': '2022-03-31'] :
                 convertFala('As datas com feriado em Março são: \n')
 
-                x=str(feriados)
+                x=str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -141,7 +141,7 @@ def ouvir():
               for feriado in feriados['2022-04-01': '2022-04-30'] :
                 convertFala('As datas com feriado em Abril são: \n')
 
-                x=str(feriados)
+                x=str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -152,7 +152,7 @@ def ouvir():
               for feriado in feriados['2022-05-01': '2022-05-30'] :
                 convertFala('As datas com feriado em Maio são: \n')
 
-                x=str(feriados)
+                x=str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -163,7 +163,7 @@ def ouvir():
               for feriado in feriados['2022-06-01': '2022-06-31'] :
                 convertFala('As datas com feriado em Junho são: \n')
 
-                x=str(feriados)
+                x=str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -174,7 +174,7 @@ def ouvir():
               for feriado in feriados['2022-07-01': '2022-07-30'] :
                 convertFala('As datas com feriado em Julho são: \n')
 
-                x=str(feriados)
+                x=str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -185,7 +185,7 @@ def ouvir():
               for feriado in feriados['2022-08-01': '2022-08-31'] :
                 convertFala('As datas com feriado em Agosto são: \n')
 
-                x=str(feriados)
+                x=str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -196,7 +196,7 @@ def ouvir():
               for feriado in feriados['2022-09-01': '2022-09-30'] :
                 convertFala('As datas com feriado em Setembro são: \n')
 
-                x=str(feriados)
+                x=str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -207,7 +207,7 @@ def ouvir():
               for feriado in feriados['2022-10-01': '2022-10-31'] :
                 convertFala('As datas com feriado em Outubro são: \n')
 
-                x=str(feriados)
+                x=str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -218,7 +218,7 @@ def ouvir():
               for feriado in feriados['2022-11-01': '2022-11-30'] :
                 convertFala('As datas com feriado em Novembro são: \n')
 
-                x=str(feriados)
+                x=str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
@@ -229,7 +229,7 @@ def ouvir():
               for feriado in feriados['2022-12-01': '2022-12-31'] :
                 convertFala('As datas com feriado em Dezembro são: \n')
 
-                x=str(feriados)
+                x=str(feriado)
                 x=re.sub("datetime.date",'',x)
                 x=re.sub('{','',x)
                 x=re.sub('}','',x)
