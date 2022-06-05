@@ -79,7 +79,7 @@ align="center" height="600" width="700" ></a></br>
 
 ## 📈Kanban no Trello:</br>
 
-![Screenshot](apii.png)</br>
+![Screenshot](trello.png)</br>
 
 ## 📈Gráfico Burndown:</br> 
 
