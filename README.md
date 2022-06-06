@@ -75,10 +75,8 @@
  - Calendário de feriados;</br>
  - Comparação de preços.</br>
 
-## 📆Cronograma:</br> 
 
-<a href="url"><img src="https://user-images.githubusercontent.com/102192428/166844439-2cfea370-6189-41da-b1ab-74f8e4f53f48.PNG" 
-align="center" height="600" width="700" ></a></br>
+![Screenshot](cronogramaa.png)</br>
 
 ## 📈Kanban no Trello:</br>
 
