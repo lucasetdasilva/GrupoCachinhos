@@ -3,7 +3,7 @@
 ![Screenshot](logo.png)</br>
 
 
-##  Sobre a assistente</br>
+##  Sobre a Assistente Virtual</br>
  ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são no exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que este pode aproveitar seu passeio em seu próprio país; o qual ainda não possui as belas paisagens valorizadas.<br><br>
  ▫ "Mó Viagem" é uma assistente virtual com o nicho "Viagens". Seu principal objetivo é auxiliar o usuário a planejar sua próxima aventura. </br></br>
  ▫ Formato escolhido: Desktop.</br>
