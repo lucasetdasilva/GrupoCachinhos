@@ -70,7 +70,15 @@ def ouvir():
             primavera = ["Atibaia", "Holambra", "Cunha", "Poços de Caldas", "Belo Horizonte"]
             verao = ["Fortaleza", "Aracajú", "Recife", "Caldas Novas", "Porto Seguro"]
             convertFala('Por Favor diga uma estação:')
-            estacao = ouvir()
+            rec = sr.Recognizer()
+            
+            with sr.Microphone() as mic:
+                print("ouvindo")
+                rec.adjust_for_ambient_noise(mic)
+                audio = rec.listen(mic)
+
+            estacao = rec.recognize_google(audio, language="pt-BR")
+            
             if "outono" in estacao:
                 convertFala('os melhores locais para se viajar no outono:')
                 print(outono)
