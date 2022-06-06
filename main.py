@@ -8,7 +8,7 @@ import re
 import holidays
 import webbrowser as wb
 feriados = holidays.Brazil()
-Av={}
+dic={}
 arquivos = []
 contador = 0
 
@@ -529,55 +529,44 @@ def ouvir():
         elif "avaliações" in texto:
             convertFala("O que deseja fazer: Ver Avaliações ou Fazer uma: ")
             oqd = sr.Recognizer()
-            
-            with sr.Microphone() as mic:
-                    print("Escolha uma opção: \n")
-                    print("Fazer avaliação ou Ver avaliação")
-                    oqd.adjust_for_ambient_noise(mic)
-                    audio = oqd.listen(mic)
-                    voz = oqd.recognize_google(audio, language="pt-BR")
 
-            
+            with sr.Microphone() as mic:
+                print("Escolha uma opção: \n")
+                print("Fazer avaliação ou Ver avaliação")
+                oqd.adjust_for_ambient_noise(mic)
+                audio = oqd.listen(mic)
+                voz = oqd.recognize_google(audio, language="pt-BR")
+
             if "fazer avaliação" in voz:
-                    
+
                 convertFala("Qual o local que deseja avaliar")
                 print("Qual o local que deseja avaliar:")
                 s = sr.Recognizer()
 
                 with sr.Microphone() as mic:
-                    print("Qual o nome do município: ")
+                    print("Qual o nome do município:")
                     s.adjust_for_ambient_noise(mic)
                     audio = s.listen(mic)
-                    voz2 = s.recognize_google(audio, language="pt-BR")
-                 
+
+                voz2 = s.recognize_google(audio, language="pt-BR")
+
                 sa = sr.Recognizer()
-                
+
                 with sr.Microphone() as mic:
                     print("Qual o seu comentário e, se quiser, seguido do seu nome:")
+                    convertFala("Qual o seu comentário e, se quiser, seguido do seu nome")
                     sa.adjust_for_ambient_noise(mic)
                     audio = sa.listen(mic)
-                    
+
                 comentario = sa.recognize_google(audio, language="pt-BR")
 
-                if voz2 in Av:
-                    Av[voz2] += (' , ')
-                    Av[voz2] += (comentario)
-                    voz2 = ''
-                    comentario = ''
-                else:
-                    Av = {**Av,**{voz2:comentario}}
-                    voz2 = ''
-                    comentario = ''
-                    
-                    
+                dic["Cidade"].append(voz2)
+                dic["Comentario"].append(comentario)
+                convertFala("Avaliação salva com sucesso")
+
             elif 'ver avaliação' in voz:
-                convertFala("De qual local deseja ver as avaliações: ")
-                print("De qual local deseja ver as avaliações: ")
-                voz2 = sr.Recognizer
-                
-                print(Av[voz2])
-                comentario = ''
-                voz=''
+                print(dic)
+                convertFala(dic)
          
 
     except sr.UnknownValueError:
