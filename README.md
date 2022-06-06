@@ -26,7 +26,7 @@
 - `Avaliações no app`: O usuário poderá falar para outros usuários suas experiências de viagens e recomendações de lugares.</br>
 - `Pesquisa de agências`: Função a qual será mostrado agências e suas respectivas categorias (Ecoturismo, Gastronomia, Para toda Família e Parques Temáticos).</br>
 - `Roteiro de viagens`: De acordo com a cidade, será mostrado ao usuário pontos turísticos.</br>
-- `Comparação de preços`: O programa irá mostrar as melhores opções de voos para o usuário.</br>
+- `Comparação de preços`: O programa redirecionará o usuário para outro site onde ele poderá comparar os preços das passagens aéreas.</br>
 - `Curiosidades`: Serve caso o usuário queira saber um pouco mais sobre uma cidade.</br>
 - `Calendário de Feriados`: Será feito um calendário que mostrará os próximos feriados prolonagados.</br>
 - `Locais mais procurados por estação do ano`: É mostrado ao usuário os melhores destinos por estação do ano.</br>
