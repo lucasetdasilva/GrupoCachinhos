@@ -53,6 +53,7 @@
 - Wikipédia: https://pypi.org/project/wikipedia/</br>
 - Requests: https://pypi.org/project/requests/</br>
 - Translator: https://pypi.org/project/translate/</br>
+- Holidays:</br>
   
 
  ## 🏁 Sprint Backlog da 1ª Sprint( 25/03 - 14/04)</br>
