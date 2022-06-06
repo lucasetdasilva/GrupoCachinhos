@@ -83,6 +83,7 @@
 
 - `Avaliações`
 - `Roteiro`
+- `Desejos`
 - `Até mais`
 - `Previsão do Tempo`
 - `Curiosidades`
