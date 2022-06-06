@@ -84,4 +84,4 @@
 
 ## 📈Gráfico Burndown:</br> 
 
-![Screenshot](burndown.png)</br>
+![Screenshot](sprint.png)</br>
