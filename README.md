@@ -4,9 +4,10 @@
 
 
 ##  Sobre a Assistente Virtual</br>
- ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são no exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que este pode aproveitar seu passeio em seu próprio país; o qual ainda não possui as belas paisagens valorizadas.<br><br>
+ ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são sempre os países do exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que ele pode aproveitar seu passeio em seu próprio país, o qual ainda não possui as belas paisagens valorizadas.<br><br>
  ▫ "Mó Viagem" é uma assistente virtual com o nicho "Viagens". Seu principal objetivo é auxiliar o usuário a planejar sua próxima aventura. </br></br>
- ▫ Formato escolhido: Desktop.</br>
+ ▫ Formato escolhido: Desktop.</br><br>
+ ▫ Ao final do projeto o grupo espera concluir todas as funcionalidades estabelecidades e entregar um produto de qualidade e excelência.<br>
 
 
 ## Integrantes do grupo: </br>
@@ -30,7 +31,7 @@
 - `Curiosidades`: Serve caso o usuário queira saber um pouco mais sobre uma cidade.</br>
 - `Calendário de Feriados`: Será feito um calendário que mostrará os próximos feriados prolonagados.</br>
 - `Locais mais procurados por estação do ano`: É mostrado ao usuário os melhores destinos por estação do ano.</br>
-     
+</br>     
  
 ## **Backlog Priorizado do Produto**: <br>
 - Curiosidades da localidade (1);<br>
@@ -44,6 +45,7 @@
 - Previsão do tempo (1);<br>
 - Reconhecimento de voz (1).</br>
 ## **Legenda: 1: Imprescendível, 2: Importante, 3: Desejável**.</br> 
+</br>
 
 ## 💻Tecnologias aplicadas:</br>
 - SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
@@ -56,7 +58,7 @@
 - Holidays: https://pypi.org/project/holidays/</br>
 - Re: https://docs.python.org/3/library/re.html</br>
 - Webbrowser: https://pypi.org/project/pycopy-webbrowser/</br>
-  
+  </br>
 
  ## 🏁 Sprint Backlog da 1ª Sprint( 25/03 - 14/04)</br>
  - Reconhecimento de voz;</br>
@@ -68,13 +70,28 @@
  - Locais mais procurados em cada estação do ano;</br>
  - Roteiro de Viagens;</br>
  - Pesquisa de Agências.</br>
+ </br>
  
  ## 🏁Sprint Backlog da 3ª Sprint (16/05 - 05/06)</br>
  - Avaliações no aplicativo;</br>
  - Lista de desejos;</br>
  - Calendário de feriados;</br>
  - Comparação de preços.</br>
+</br>
 
+## **O que eu possso falar para a Assistente Virtual ?** <br>
+
+- `Avaliações`
+- `Roteiro`
+- `Até mais`
+- `Previsão do Tempo`
+- `Curiosidades`
+- `Calendário`
+- `Pesquisar Agências`
+- `Locais mais procurados`
+- `Curiosidades`
+- `Comparação de Preços`
+</br></br>
 
 ![Screenshot](cronogramaa.png)</br>
 
