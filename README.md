@@ -11,15 +11,17 @@
 
 
 ## Integrantes do grupo: </br>
-- Cainan Thomas Branco Santos: Desenvolvedor</br>
-- Dainele de Jesus Souza: Desenvolvedora</br>
-- Guilherme Augusto Wunderlich Serapião: Desenvolvedor</br>
-- Isabela dos Santos Pereira: Desenvolvedora</br>
-- Júlia Pereira Quitério: Desenvolvedora</br>
-- Lucas Emanoel Teixeira Engracio da Silva: Scrum Master</br>
-- Marcella Yanes Borges do Amaral: Product Owner</br>
-- Yasmin da Silva Santana: Desenvolvedora</br>
-
+| Integrante | Função |
+| --- | --- |
+| `Cainan Thomas Branco Santos` | Desenvolvedor |
+| `Dainele de Jesus Souza` | Desenvolvedora |
+| `Guilherme Augusto Wunderlich Serapião` | Desenvolvedor |
+| `Isabela dos Santos Pereira` | Desenvolvedora |
+| `Júlia Pereira Quitério` | Desenvolvedora |
+| `Lucas Emanoel Teixeira Engracio da Silva` | Scrum Master |
+| `Marcella Yanes Borges do Amaral` | Product Owner |
+| `Yasmin da Silva Santana` | Desenvolvedora |
+<br>
  
 ## :hammer: Funcionalidades: </br>
 - `Previsão do tempo`: Nesta função, o usuário pode pesquisar a previsão do tempo no destino desejado. </br>
