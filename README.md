@@ -3,14 +3,14 @@
 ![Screenshot](logo.png)</br>
 
 
-## Sobre a Assistente Virtual</br>
+## :robot: Sobre a Assistente Virtual <br>
  ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são sempre os países do exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que ele pode aproveitar seu passeio em seu próprio país, o qual ainda não possui as belas paisagens valorizadas.<br><br>
  ▫ "Mó Viagem" é uma assistente virtual com o nicho "Viagens". Seu principal objetivo é auxiliar o usuário a planejar sua próxima aventura. </br></br>
  ▫ Formato escolhido: Desktop.</br><br>
  ▫ Ao final do projeto o grupo espera concluir todas as funcionalidades estabelecidades e entregar um produto de qualidade e excelência.<br>
 
 
-## Integrantes do grupo: </br>
+## Integrantes do grupo :woman_technologist: :man_technologist: : </br>
 | Integrante | Função |
 | --- | --- |
 | `Cainan Thomas Branco Santos` | Desenvolvedor |
@@ -39,8 +39,9 @@
 
 [![Screenshot](titulo.jpg)](https://www.youtube.com/watch?v=sMsg5akNBOQ
 "Vídeo da 3 Sprint")
+ <br><br><br>
  
-## **Backlog Priorizado do Produto**: <br>
+## :page_facing_up: Backlog Priorizado do Produto: <br>
 - Curiosidades da localidade (1);<br>
 - Locais mais procurados em cada estação do ano (1);<br>
 - Roteiro de viagem (2);<br>
@@ -67,26 +68,26 @@
 - Webbrowser: https://pypi.org/project/pycopy-webbrowser/</br>
   </br>
 
- ## 🏁 Sprint Backlog da 1ª Sprint(25/03 - 14/04)</br>
+ ## 🏁 Sprint Backlog da 1ª Sprint(25/03 - 14/04)<br>
  - Reconhecimento de voz;</br>
  - Previsão do tempo.</br>
 
  
- ## 🏁Sprint Backlog da 2ª Sprint(25/04 - 15/05)</br>
+ ## 🏁 Sprint Backlog da 2ª Sprint(25/04 - 15/05)<br>
  - Curiosidades da localidade;</br>
  - Locais mais procurados em cada estação do ano;</br>
  - Roteiro de Viagens;</br>
  - Pesquisa de Agências.</br>
  </br>
  
- ## 🏁Sprint Backlog da 3ª Sprint (16/05 - 05/06)</br>
+ ## 🏁 Sprint Backlog da 3ª Sprint (16/05 - 05/06)<br>
  - Avaliações no aplicativo;</br>
  - Lista de desejos;</br>
  - Calendário de feriados;</br>
  - Comparação de preços.</br>
 </br>
 
-## **O que eu possso falar para a Assistente Virtual ?** <br>
+## :interrobang: O que eu posso falar para a Assistente Virtual ?<br>
 
 - `Avaliações`
 - `Roteiro`
