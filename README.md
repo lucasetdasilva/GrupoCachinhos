@@ -3,7 +3,7 @@
 ![Screenshot](logo.png)</br>
 
 
-##  Sobre a Assistente Virtual</br>
+## Sobre a Assistente Virtual</br>
  ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são sempre os países do exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que ele pode aproveitar seu passeio em seu próprio país, o qual ainda não possui as belas paisagens valorizadas.<br><br>
  ▫ "Mó Viagem" é uma assistente virtual com o nicho "Viagens". Seu principal objetivo é auxiliar o usuário a planejar sua próxima aventura. </br></br>
  ▫ Formato escolhido: Desktop.</br><br>
@@ -35,7 +35,7 @@
 - `Locais mais procurados por estação do ano`: É mostrado ao usuário os melhores destinos por estação do ano.</br>
 </br>     
 
-## :airplane: Vídeo Demosnstrativo do Projeto: <br>
+## :airplane: Vídeo Demonstrativo do Projeto: <br>
 
 [![Screenshot](titulo.jpg)](https://www.youtube.com/watch?v=sMsg5akNBOQ
 "Vídeo da 3 Sprint")
@@ -52,7 +52,7 @@
 - Previsão do tempo (1);<br>
 - Reconhecimento de voz (1).</br>
 **Legenda: 1: Imprescendível, 2: Importante, 3: Desejável**.</br> 
-</br>
+<br>
 
 ## 💻Tecnologias aplicadas:</br>
 - SpeechRecognition: https://pypi.org/project/SpeechRecognition/</br>
