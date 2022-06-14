@@ -37,9 +37,7 @@
 
 ## :airplane: Vídeo Demosnstrativo do Projeto: <br>
 
-<video widht = "320" height = "150" controls>
-    <source src = "videoo.mp4" type = "video/mp4">
- </video>
+![Screenshot](titulo.jpg)(https://www.youtube.com/watch?v=sMsg5akNBOQ "Vídeo da 3 Sprint")
  
 ## **Backlog Priorizado do Produto**: <br>
 - Curiosidades da localidade (1);<br>
