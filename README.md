@@ -46,7 +46,7 @@
 - Comparação de preços (3);<br>
 - Previsão do tempo (1);<br>
 - Reconhecimento de voz (1).</br>
-## **Legenda: 1: Imprescendível, 2: Importante, 3: Desejável**.</br> 
+**Legenda: 1: Imprescendível, 2: Importante, 3: Desejável**.</br> 
 </br>
 
 ## 💻Tecnologias aplicadas:</br>
@@ -62,7 +62,7 @@
 - Webbrowser: https://pypi.org/project/pycopy-webbrowser/</br>
   </br>
 
- ## 🏁 Sprint Backlog da 1ª Sprint( 25/03 - 14/04)</br>
+ ## 🏁 Sprint Backlog da 1ª Sprint(25/03 - 14/04)</br>
  - Reconhecimento de voz;</br>
  - Previsão do tempo.</br>
 
