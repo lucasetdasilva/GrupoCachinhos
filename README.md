@@ -38,7 +38,7 @@
 ## :airplane: Vídeo Demosnstrativo do Projeto: <br>
 
 <video widht = "320" height = "150" controls>
-    <source src = "video.mp4" type = "video/mp4">
+    <source src = "videoo.mp4" type = "video/mp4">
  </video>
  
 ## **Backlog Priorizado do Produto**: <br>
