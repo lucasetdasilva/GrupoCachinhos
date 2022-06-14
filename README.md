@@ -7,8 +7,8 @@
  ▫ No que se refere à respeito de viagens, os primeiros destinos a se pensar são sempre os países do exterior. Nossa assistente chegou com o propósito de mostrar ao usuário que ele pode aproveitar seu passeio em seu próprio país, o qual ainda não possui as belas paisagens valorizadas.<br><br>
  ▫ "Mó Viagem" é uma assistente virtual com o nicho "Viagens". Seu principal objetivo é auxiliar o usuário a planejar sua próxima aventura. </br></br>
  ▫ Formato escolhido: Desktop.</br><br>
- ▫ Ao final do projeto o grupo espera concluir todas as funcionalidades estabelecidades e entregar um produto de qualidade e excelência.<br>
-
+ ▫ Ao final do projeto, o grupo espera concluir todas as funcionalidades estabelecidadas e entregar um produto de qualidade e excelência.<br><br>
+ ▫ Projeto 100% desenvolvido em Python.<br><br>
 
 ## Integrantes do grupo :woman_technologist: :man_technologist: : </br>
 | Integrante | Função |
