@@ -37,7 +37,8 @@
 
 ## :airplane: Vídeo Demosnstrativo do Projeto: <br>
 
-![Screenshot](titulo.jpg)(https://www.youtube.com/watch?v=sMsg5akNBOQ "Vídeo da 3 Sprint")
+[![Screenshot](titulo.jpg)](https://www.youtube.com/watch?v=sMsg5akNBOQ
+"Vídeo da 3 Sprint")
  
 ## **Backlog Priorizado do Produto**: <br>
 - Curiosidades da localidade (1);<br>
