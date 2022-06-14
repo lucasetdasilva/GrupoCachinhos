@@ -34,6 +34,12 @@
 - `Calendário de Feriados`: Será feito um calendário que mostrará os próximos feriados prolonagados.</br>
 - `Locais mais procurados por estação do ano`: É mostrado ao usuário os melhores destinos por estação do ano.</br>
 </br>     
+
+## :airplane: Vídeo Demosnstrativo do Projeto: <br>
+
+<video widht = "320" height = "150" controls>
+    <source src = "video.mp4" type = "video/mp4">
+ </video>
  
 ## **Backlog Priorizado do Produto**: <br>
 - Curiosidades da localidade (1);<br>
@@ -50,10 +56,10 @@
 </br>
 
 ## 💻Tecnologias aplicadas:</br>
-- SpeechRecognition: https://pypi.org/project/SpeechRecognition/;</br>
-- PyAudio: https://pypi.org/project/PyAudio/;</br>
-- API OpenWeather: https://openweathermap.org/;</br>
-- Pandas: https://pypi.org/project/pandas/;</br>
+- SpeechRecognition: https://pypi.org/project/SpeechRecognition/</br>
+- PyAudio: https://pypi.org/project/PyAudio/</br>
+- API OpenWeather: https://openweathermap.org/</br>
+- Pandas: https://pypi.org/project/pandas/</br>
 - Wikipédia: https://pypi.org/project/wikipedia/</br>
 - Requests: https://pypi.org/project/requests/</br>
 - Translator: https://pypi.org/project/translate/</br>
