@@ -41,7 +41,15 @@ def ouvir():
         if "previsão do tempo" in texto:
             convertFala("Para onde você pretende ir")
             api = "a143cba82f2ee6901732e51ece9014df"
-            cidade = str(input("Qual o nome da cidade?"))
+            rec = sr.Recognizer()
+            
+            with sr.Microphone() as mic:
+                print("ouvindo")
+                rec.adjust_for_ambient_noise(mic)
+                audio = rec.listen(mic)
+            
+            cidade = rec.recognize_google(audio, language="pt-BR")
+            
             url = f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={api}"
             req = requests.get(url)
             requisicao_dic = req.json()
@@ -112,7 +120,7 @@ def ouvir():
                 
           mes = mf.recognize_google(audio, language="pt-BR")
 
-          if'janeiro' in mes:
+          if "janeiro" in mes:
               for feriado in feriados['2022-01-01': '2022-01-31'] :
                 convertFala('As datas com feriado em Janeiro são: \n')
 
@@ -123,7 +131,7 @@ def ouvir():
                 print(x)
                 convertFala(x)
 
-          elif 'fevereiro' in mes:
+          elif "fevereiro" in mes:
               for feriado in feriados['2022-02-01': '2022-02-28'] :
                 convertFala('As datas com feriado em Fevereiro são: \n')
 
@@ -134,7 +142,7 @@ def ouvir():
                 print(x)
                 convertFala(x)
 
-          elif 'março' in mes:
+          elif "março" in mes:
               for feriado in feriados['2022-03-01': '2022-03-31'] :
                 convertFala('As datas com feriado em Março são: \n')
 
@@ -145,7 +153,7 @@ def ouvir():
                 print(x)
                 convertFala(x)
 
-          elif 'abril' in mes:
+          elif "abril" in mes:
               for feriado in feriados['2022-04-01': '2022-04-30'] :
                 convertFala('As datas com feriado em Abril são: \n')
 
@@ -157,7 +165,7 @@ def ouvir():
                 convertFala(x)
                 
                 
-          elif 'maio' in mes:
+          elif "maio" in mes:
               for feriado in feriados['2022-05-01': '2022-05-30'] :
                 convertFala('As datas com feriado em Maio são: \n')
 
@@ -168,7 +176,7 @@ def ouvir():
                 print(x)
                 convertFala(x)
 
-          elif 'junho' in mes:
+          elif "junho" in mes:
               for feriado in feriados['2022-06-01': '2022-06-31'] :
                 convertFala('As datas com feriado em Junho são: \n')
 
@@ -179,7 +187,7 @@ def ouvir():
                 print(x)
                 convertFala(x)
 
-          elif 'julho' in mes:
+          elif "julho" in mes:
               for feriado in feriados['2022-07-01': '2022-07-30'] :
                 convertFala('As datas com feriado em Julho são: \n')
 
@@ -190,7 +198,7 @@ def ouvir():
                 print(x)
                 convertFala(x)
 
-          elif 'agosto' in mes:
+          elif "agosto" in mes:
               for feriado in feriados['2022-08-01': '2022-08-31'] :
                 convertFala('As datas com feriado em Agosto são: \n')
 
@@ -201,7 +209,7 @@ def ouvir():
                 print(x)
                 convertFala(x)
 
-          elif 'setembro' in mes:
+          elif "setembro" in mes:
               for feriado in feriados['2022-09-01': '2022-09-30'] :
                 convertFala('As datas com feriado em Setembro são: \n')
 
@@ -212,7 +220,7 @@ def ouvir():
                 print(x)
                 convertFala(x)
 
-          elif 'outubro' in mes:
+          elif "outubro" in mes:
               for feriado in feriados['2022-10-01': '2022-10-31'] :
                 convertFala('As datas com feriado em Outubro são: \n')
 
@@ -223,7 +231,7 @@ def ouvir():
                 print(x)
                 convertFala(x)
 
-          elif 'novembro' in mes:
+          elif "novembro" in mes:
               for feriado in feriados['2022-11-01': '2022-11-30'] :
                 convertFala('As datas com feriado em Novembro são: \n')
 
@@ -234,7 +242,7 @@ def ouvir():
                 print(x)
                 convertFala(x)
 
-          elif 'dezembro' on mes:
+          elif "dezembro" on mes:
               for feriado in feriados['2022-12-01': '2022-12-31'] :
                 convertFala('As datas com feriado em Dezembro são: \n')
 
@@ -452,7 +460,7 @@ def ouvir():
             convertFala(resposta)
             
         #Lista de Desejos
-        elif "desejos" in texto:
+        elif "desejo" in texto:
             convertFala("Você deseja visualizar a lista ou adicionar")
             print("\n")
             print("1- Visualizar")
@@ -543,7 +551,7 @@ def ouvir():
                 print("Fazer avaliação ou Ver avaliação")
                 oqd.adjust_for_ambient_noise(mic)
                 audio = oqd.listen(mic)
-                voz = oqd.recognize_google(audio, language="pt-BR")
+            voz = oqd.recognize_google(audio, language="pt-BR")
 
             if "fazer avaliação" in voz:
 
