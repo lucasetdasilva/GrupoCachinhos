@@ -12,6 +12,7 @@ dic={}
 arquivos = []
 contador = 0
 
+
 def tradutor(palavra):
     translator= Translator(to_lang="pt")
     translation =  translator.translate(palavra)
